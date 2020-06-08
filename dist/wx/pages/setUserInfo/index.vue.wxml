@@ -1,0 +1,28 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="e357d750">
+  <view class="_div data-v-5629b253 m_setting"><template showBack title="设置" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-5629b253 box">
+      <view class="_div data-v-5629b253 set_item clearfix">
+        <view class="_div data-v-5629b253 front fl">头像</view>
+        <view class="_div data-v-5629b253 behide fr">
+          <view class="_div data-v-5629b253 avatar">
+            <image mode="aspectFill" src="/static/images/user.png" class="_image data-v-5629b253"></image>
+          </view>
+        </view>
+      </view>
+      <navigator hover-class="none" open-type="navigate" url="/pages/revisePage/main?source=name" class="_navigator data-v-5629b253 set_item clearfix">
+        <view class="_div data-v-5629b253 front fl">昵称</view>
+        <view class="_div data-v-5629b253 behide fr">
+          <view class="_div data-v-5629b253 content"> 张三 </view>
+          <view class="_div data-v-5629b253 icon icon_to"></view>
+        </view>
+      </navigator>
+      <navigator hover-class="none" open-type="navigate" url="/pages/revisePage/main?source=mark" class="_navigator data-v-5629b253 set_item clearfix">
+        <view class="_div data-v-5629b253 front fl">个性签名</view>
+        <view class="_div data-v-5629b253 behide fr">
+          <view class="_div data-v-5629b253 content"> 三朵金花已测试测试发斯蒂芬斯蒂芬 </view>
+          <view class="_div data-v-5629b253 icon icon_to"></view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

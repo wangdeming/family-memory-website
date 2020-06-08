@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="4px" viewBox="0 0 20 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>details_more</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人资料" transform="translate(-323.000000, -587.000000)" fill="#999999" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(15.000000, 318.000000)">
+                <g id="Combined-Shape-2" transform="translate(308.000000, 269.000000)">
+                    <path d="M2,4 C0.8954305,4 0,3.1045695 0,2 C0,0.8954305 0.8954305,0 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 Z M10,4 C8.8954305,4 8,3.1045695 8,2 C8,0.8954305 8.8954305,0 10,0 C11.1045695,0 12,0.8954305 12,2 C12,3.1045695 11.1045695,4 10,4 Z M18,4 C16.8954305,4 16,3.1045695 16,2 C16,0.8954305 16.8954305,0 18,0 C19.1045695,0 20,0.8954305 20,2 C20,3.1045695 19.1045695,4 18,4 Z" id="details_more"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,119 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/Popover.vue.wxml" />
+<import src="/components/Share.vue.wxml" /><template name="261dc31c">
+  <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 m_artice_detail" data-eventid="{{'17'}}" data-comkey="{{$k}}"><template showBack title="详情" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-1fcf3fd7 content_box" bindtap="handleProxy" data-eventid="{{'16'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-1fcf3fd7 artice_detail">
+        <view class="_div data-v-1fcf3fd7 container">
+          <view class="_div data-v-1fcf3fd7 title">俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！</view>
+          <view class="_div data-v-1fcf3fd7 author_line clearfix">
+            <view class="_div data-v-1fcf3fd7 avatar_box fl">
+              <image mode="aspectFill" src="/static/images/user.png" class="_image data-v-1fcf3fd7"></image>
+            </view>
+            <view class="_div data-v-1fcf3fd7 author_detail fl">
+              <view class="_div data-v-1fcf3fd7 author_name">用户名称</view>
+              <view class="_div data-v-1fcf3fd7 author_time">2019-12-12</view>
+            </view>
+            <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 forkBtn {{statusObj[status].active ? 'active' : ''}}" wx:if="{{!selfArticle}}" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+              <view class="_div data-v-1fcf3fd7 icon">
+                <image style="width: 12px;height: 12px" src="{{statusObj[status].imageUrl}}" mode="aspectFit" class="_image data-v-1fcf3fd7"></image>
+              </view>
+              <view class="_div data-v-1fcf3fd7 word">{{statusObj[status].title}}</view>
+            </view>
+          </view>
+          <view class="_div data-v-1fcf3fd7 artice_main" style=" {{('height:' + height + ';')}}">
+            <view class="_div data-v-1fcf3fd7 media">
+              <image mode="widthFix" src="/static/images/pic.png" class="_image data-v-1fcf3fd7"></image>
+            </view>
+            <view class="_div data-v-1fcf3fd7 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            <view class="_div data-v-1fcf3fd7 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            <view class="_div data-v-1fcf3fd7 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            <view class="_div data-v-1fcf3fd7 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            <view class="_div data-v-1fcf3fd7 media">
+              <image mode="widthFix" src="/static/images/pic.png" class="_image data-v-1fcf3fd7"></image>
+            </view>
+            <view class="_div data-v-1fcf3fd7 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            <view wx:if="{{!readAll}}" class="_div data-v-1fcf3fd7 read_all" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+              <view class="_div data-v-1fcf3fd7 handler_block">
+                <view class="_p data-v-1fcf3fd7 tip">展开阅读全文</view>
+                <view class="_p data-v-1fcf3fd7 icon icon_down"></view>
+              </view>
+            </view>
+          </view>
+          <view class="_div data-v-1fcf3fd7 artice_data clearfix">
+            <view class="_div data-v-1fcf3fd7 data fl clearfix">
+              <view class="_div data-v-1fcf3fd7 read_num fl">阅读<text class="_text data-v-1fcf3fd7 num">99</text></view>
+              <view class="_div data-v-1fcf3fd7 dz_num fl"><label class="_span data-v-1fcf3fd7 icon icon_dz"></label><text class="_text data-v-1fcf3fd7 num">88</text></view>
+            </view>
+            <view class="_div data-v-1fcf3fd7 complain fr" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">举报</view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-1fcf3fd7 comment_detail" id="commentContent">
+        <view class="_div data-v-1fcf3fd7 container">
+          <view class="_div data-v-1fcf3fd7 comment_top clearfix">
+            <view class="_div data-v-1fcf3fd7 word fl">全部评论(88)</view>
+            <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 icon icon_pl fr" data-eventid="{{'3'}}" data-comkey="{{$k}}">评论</view>
+          </view>
+          <view class="_div data-v-1fcf3fd7 comment_list">
+            <view class="_div data-v-1fcf3fd7 comment_item">
+              <view class="_div data-v-1fcf3fd7 avatar">
+                <image mode="aspectFill" src="/static/images/user.png" class="_image data-v-1fcf3fd7"></image>
+              </view>
+              <view class="_div data-v-1fcf3fd7 comment">
+                <view class="_p data-v-1fcf3fd7 user_name">用户昵称</view>
+                <view catchtap="handleProxy" class="_div data-v-1fcf3fd7 comment_word" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+                  <view catchtap="handleProxy" wx:if="{{currentIndex === 0 && showDeleteBtn}}" class="_div data-v-1fcf3fd7 delete_comment" data-eventid="{{'4'}}" data-comkey="{{$k}}">删除</view>
+                  <view class="_p data-v-1fcf3fd7">好美呀！好美呀！好美呀！真是太漂亮！好美呀！好美呀！好美呀！真是太漂亮！</view>
+                </view>
+                <view class="_div data-v-1fcf3fd7 comment_reply clearfix">
+                  <view class="_div data-v-1fcf3fd7 time fl">2017-06-07</view>
+                  <view class="_div data-v-1fcf3fd7 icon icon_reply fr"></view>
+                </view>
+              </view>
+              <view class="_div data-v-1fcf3fd7 reply_list">
+                <view class="_div data-v-1fcf3fd7 reply_item"><text class="_text data-v-1fcf3fd7 name">昵称:</text> <text class="_text data-v-1fcf3fd7 reply_content"> 测试回复内容测试回复内容 </text></view>
+                <view class="_div data-v-1fcf3fd7 reply_item"><text class="_text data-v-1fcf3fd7 name">昵称:</text> <text class="_text data-v-1fcf3fd7 reply_content"> 测试回复内容测试回复内容测试回复内容测试回复内容测试回复内容 </text></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{!selfArticle}}" class="_div data-v-1fcf3fd7 artice_handler clearfix">
+        <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 store_up handler_item fl" data-eventid="{{'6'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-1fcf3fd7 icon icon_store {{collectionActive ? 'active' : ''}}"></view>
+          <view class="_p data-v-1fcf3fd7 word">收藏</view>
+        </view>
+        <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 dianzan handler_item fl" data-eventid="{{'7'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-1fcf3fd7 icon icon_dz {{likeActive ? 'active' : ''}}"></view>
+          <view class="_p data-v-1fcf3fd7 word">赞<text class="_text data-v-1fcf3fd7 num">88</text></view>
+        </view>
+        <view bindtap="handleProxy" class="_div data-v-1fcf3fd7 comment handler_item fl" data-eventid="{{'8'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-1fcf3fd7 icon icon_comment"></view>
+          <view class="_p data-v-1fcf3fd7 word">评论<text class="_text data-v-1fcf3fd7 num">88</text></view>
+        </view>
+        <view class="_div data-v-1fcf3fd7 handler_right fr clearfix">
+          <view class="_div data-v-1fcf3fd7 share fl btn" catchtap="handleProxy" data-eventid="{{'9'}}" data-comkey="{{$k}}">
+            <view class="_p data-v-1fcf3fd7 icon_share">分享</view>
+          </view>
+          <view class="_div data-v-1fcf3fd7 toWrite active fr btn">写回忆</view>
+        </view>
+      </view>
+      <view wx:if="{{selfArticle}}" class="_div data-v-1fcf3fd7 artice_handler clearfix">
+        <view class="_div data-v-1fcf3fd7 dianzan handler_item fl">
+          <view class="_div data-v-1fcf3fd7 icon icon_dz {{likeActive ? 'active' : ''}}"></view>
+          <view class="_p data-v-1fcf3fd7 word">赞<text class="_text data-v-1fcf3fd7 num">88</text></view>
+        </view>
+        <view class="_div data-v-1fcf3fd7 comment handler_item fl">
+          <view class="_div data-v-1fcf3fd7 icon icon_comment"></view>
+          <view class="_p data-v-1fcf3fd7 word">评论<text class="_text data-v-1fcf3fd7 num">88</text></view>
+        </view>
+        <view class="_div data-v-1fcf3fd7 handler_right fr clearfix">
+          <view catchtap="handleProxy" class="_div data-v-1fcf3fd7 icon btn fl icon_more" data-eventid="{{'10'}}" data-comkey="{{$k}}"></view> <template binditemBtnClick="handleProxy" data-eventid="{{'11'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="174ff797"></template>
+          <view class="_div data-v-1fcf3fd7 share fl btn" catchtap="handleProxy" data-eventid="{{'12'}}" data-comkey="{{$k}}">
+            <view class="_p data-v-1fcf3fd7 icon_share">分享</view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-1fcf3fd7 t_comment" wx:if="{{showTextarea}}" style="position: fixed;left: 0;right: 0; {{('bottom:' + (t_comment_bottom + 'px') + ';')}}">
+        <view class="_div data-v-1fcf3fd7 t_comment_div"><button bindtap="handleProxy" class="_button data-v-1fcf3fd7 t_button_cancel" data-eventid="{{'13'}}" data-comkey="{{$k}}">取消</button> <button bindtap="handleProxy" class="_button data-v-1fcf3fd7 t_button_publish" data-eventid="{{'14'}}" data-comkey="{{$k}}">发布</button></view> <textarea value="{{textareaValue}}" bindinput="handleProxy" class="_textarea data-v-1fcf3fd7 t_textarea" placeholder="{{placeholder}}" maxlength="140" focus="{{focus}}" show-confirm-bar="{{showConfirmBar}}" adjust-position="{{adjustPosition}}" hold-keyboard="{{holdKeyboard}}" bindblur="handleProxy" bindfocus="handleProxy" data-eventid="{{'15'}}" data-comkey="{{$k}}" /></view></view> <template data="{{...$root[$kk+'2'], $root}}" is="9a9bab5e"></template></view></template>

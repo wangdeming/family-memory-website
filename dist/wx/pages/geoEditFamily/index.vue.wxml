@@ -1,0 +1,14 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="28c2fd08">
+  <view class="_div data-v-14848cb7 geoEditFamily"><template showBack title="共同编辑管理" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-14848cb7 box">
+      <view class="_div data-v-14848cb7 geoEdit_item clearfix">
+        <image src="/assets/images/girl.png" alt class="_img data-v-14848cb7"></image> <label class="_span data-v-14848cb7">用户名称</label>
+        <switch class="_switch data-v-14848cb7 fr" checked="switch1Checked" color="#FD6258" bindchange="switch1Change" />
+      </view>
+      <view class="_div data-v-14848cb7 geoEdit_item clearfix">
+        <image src="/assets/images/girl.png" alt class="_img data-v-14848cb7"></image> <label class="_span data-v-14848cb7">用户名称</label>
+        <switch class="_switch data-v-14848cb7 fr" checked="switch2Checked" color="#FD6258" bindchange="switch2Checked" />
+      </view>
+    </view>
+  </view>
+</template>

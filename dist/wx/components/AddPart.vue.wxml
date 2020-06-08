@@ -1,0 +1,70 @@
+<template name="16b051a6">
+  <view class="_div data-v-4d88a2cb">
+    <view class="_div data-v-4d88a2cb amplification" wx:if="{{show}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <image class="_img data-v-4d88a2cb plus_img" src="{{plus_img}}" alt></image>
+    </view>
+    <view class="_div data-v-4d88a2cb add-part">
+      <view class="_div data-v-4d88a2cb btn_box">
+        <view class="_div data-v-4d88a2cb add_btn {{openType ? 'close' : ''}}" catchtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></view>
+        <view class="_div data-v-4d88a2cb add_type {{openType ? 'close' : ''}}">
+          <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+            <image mode="aspectFill" style="width: 24px;height: 23px;" src="/static/images/tuwen_tupian.svg" class="_image data-v-4d88a2cb"></image>
+            <view class="_p data-v-4d88a2cb word">图片</view>
+          </view>
+          <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+            <image mode="aspectFill" style="width: 24px;height: 22px;" src="/static/images/tuwen_wenzi.svg" class="_image data-v-4d88a2cb"></image>
+            <view class="_p data-v-4d88a2cb word">文字</view>
+          </view>
+          <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+            <image mode="aspectFill" style="width: 26px;height: 26px;" src="/static/images/tuwen_shipin.svg" class="_image data-v-4d88a2cb"></image>
+            <view class="_p data-v-4d88a2cb word">视频</view>
+          </view>
+          <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+            <image mode="aspectFill" style="width: 24px;height: 24px;" src="/static/images/tuwen_yinpin.svg" class="_image data-v-4d88a2cb"></image>
+            <view class="_p data-v-4d88a2cb word">音频</view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{parts && parts.length > 0}}" class="_div data-v-4d88a2cb listbox">
+        <view wx:key="item" key="{{item}}" wx:for="{{parts}}" wx:for-index="index" wx:for-item="item" class="_div data-v-4d88a2cb">
+          <view class="_div data-v-4d88a2cb inputValue">
+            <view class="_div data-v-4d88a2cb box clearfix">
+              <view class="_div data-v-4d88a2cb left fl">
+                <image wx:if="{{item.src == ''}}" mode="aspectFill" style="width: 100%;height: 100%;" src="/static/images/tuwen_list_pic1.svg" bindtap="handleProxy" data-eventid="{{'7_'+index}}" data-comkey="{{$k}}" class="_image data-v-4d88a2cb"></image><video wx:elif="{{item.showVideo == true}}" style="width: 100%;height: 100%;" id="myVideo" src="{{item.src}}" controls="{{false}}" show-fullscreen-btn="{{false}}" show-center-play-btn="{{false}}" class="_video data-v-4d88a2cb"></video>
+                <image wx:elif="{{item.showAudio == true}}" mode="aspectFill" style="width: 100%;height: 100%;" src="/static/images/tuwen_list_music1.svg" class="_image data-v-4d88a2cb"></image>
+                <image wx:else mode="aspectFill" src="{{item.src}}" ref="previewimg" bindtap="handleProxy" data-eventid="{{'6_'+index}}" data-comkey="{{$k}}" class="_image data-v-4d88a2cb"></image>
+              </view>
+              <view class="_div data-v-4d88a2cb right fl">
+                <view class="_div data-v-4d88a2cb value" wx:if="{{item.wordDes}}" bindtap="handleProxy" data-eventid="{{'9_'+index}}" data-comkey="{{$k}}">{{ item.wordDes }}</view>
+                <view class="_div data-v-4d88a2cb value" wx:else bindtap="handleProxy" data-eventid="{{'8_'+index}}" data-comkey="{{$k}}">点击添加描述</view>
+              </view>
+              <view class="_div data-v-4d88a2cb icon icon_del" catchtap="handleProxy" data-eventid="{{'10_'+index}}" data-comkey="{{$k}}"></view>
+              <view class="_div data-v-4d88a2cb icon icon_drag" bindtouchstart="handleProxy" bindtouchmove="handleProxy" bindtouchend="handleProxy" data-eventid="{{'11_'+index}}" data-comkey="{{$k}}"></view>
+            </view>
+          </view>
+          <view class="_div data-v-4d88a2cb btn_box">
+            <view class="_div data-v-4d88a2cb add_btn {{!item.showShareBtn ? 'close' : ''}}" catchtap="handleProxy" data-eventid="{{'12_'+index}}" data-comkey="{{$k}}"></view>
+            <view class="_div data-v-4d88a2cb add_type  {{!item.showShareBtn ? 'close' : ''}}">
+              <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'13_'+index}}" data-comkey="{{$k}}">
+                <image mode="aspectFill" style="width: 24px;height: 23px;" src="/static/images/tuwen_tupian.svg" class="_image data-v-4d88a2cb"></image>
+                <view class="_p data-v-4d88a2cb word">图片</view>
+              </view>
+              <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'14_'+index}}" data-comkey="{{$k}}">
+                <image mode="aspectFill" style="width: 24px;height: 22px;" src="/static/images/tuwen_wenzi.svg" class="_image data-v-4d88a2cb"></image>
+                <view class="_p data-v-4d88a2cb word">文字</view>
+              </view>
+              <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'15_'+index}}" data-comkey="{{$k}}">
+                <image mode="aspectFill" style="width: 26px;height: 26px;" src="/static/images/tuwen_shipin.svg" class="_image data-v-4d88a2cb"></image>
+                <view class="_p data-v-4d88a2cb word">视频</view>
+              </view>
+              <view class="_div data-v-4d88a2cb type_item" bindtap="handleProxy" data-eventid="{{'16_'+index}}" data-comkey="{{$k}}">
+                <image mode="aspectFill" style="width: 24px;height: 24px;" src="/static/images/tuwen_yinpin.svg" class="_image data-v-4d88a2cb"></image>
+                <view class="_p data-v-4d88a2cb word">音频</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

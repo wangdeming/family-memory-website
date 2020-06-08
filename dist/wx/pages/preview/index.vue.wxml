@@ -1,0 +1,179 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="7e695f45">
+  <view class="_div data-v-229b32c0 m_preview"><template showBack title="预览" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-229b32c0 done_line" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-229b32c0 btn btn_done">完成</view>
+    </view>
+    <view class="_div data-v-229b32c0  m_artice_detail" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-229b32c0 content_box">
+        <view class="_div data-v-229b32c0 artice_detail">
+          <view class="_div data-v-229b32c0 container">
+            <view class="_div data-v-229b32c0 title">俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！</view>
+            <view class="_div data-v-229b32c0 author_line clearfix">
+              <view class="_div data-v-229b32c0 avatar_box fl">
+                <image mode="aspectFill" src="/static/images/user.png" class="_image data-v-229b32c0"></image>
+              </view>
+              <view class="_div data-v-229b32c0 author_detail fl">
+                <view class="_div data-v-229b32c0 author_name">用户名称</view>
+                <view class="_div data-v-229b32c0 author_time">2019-12-12</view>
+              </view>
+            </view>
+            <view class="_div data-v-229b32c0 artice_main">
+              <view class="_div data-v-229b32c0 media img">
+                <image mode="widthFix" src="/static/images/pic.png" class="_image data-v-229b32c0"></image>
+              </view>
+              <view class="_div data-v-229b32c0 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+              <view class="_div data-v-229b32c0 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+              <view class="_div data-v-229b32c0 media video"><video id="myVideo" controls="{{videoSetting.controls}}" show-fullscreen-btn="{{videoSetting.showFullscreenBtn}}" show-center-play-btn="{{videoSetting.showCenterPlayBtn}}" object-fit="{{videoSetting.objectFit}}" show-progress="{{videoSetting.showProgress}}" src="{{videoSetting.src}}" class="_video data-v-229b32c0"></video></view>
+              <view class="_div data-v-229b32c0 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+              <view class="_div data-v-229b32c0 media audio">
+                <view class="_div data-v-229b32c0 view clearfix">
+                  <view class="_div data-v-229b32c0 play_btn fl {{[audioState ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></view>
+                  <view class="_div data-v-229b32c0 progress_bar fl">
+                    <view class="_p data-v-229b32c0 bar_time"><text class="_text data-v-229b32c0 current_propress">{{ showTime1 }}</text> <text class="_text data-v-229b32c0 margin">/</text> <text class="_text data-v-229b32c0 all_propress">{{ showTime2 }}</text></view>
+                    <slider bindchange="handleProxy" backgroundColor="{{sliderSetting.backgroundColor}}" activeColor="{{sliderSetting.activeColor}}" block-color="{{sliderSetting.blockColor}}" block-size="{{sliderSetting.blockSize}}" value="{{propress}}" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_slider data-v-229b32c0" />
+                  </view>
+                </view>
+              </view>
+              <view class="_div data-v-229b32c0 word"> 从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功；从表的一端开始，顺序扫描表，依次将扫描到的结点关键字和给定值（假定为a）相比较，若当前结点关键字与a相等，则查找成功； </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-229b32c0 set_style clearfix">
+      <view class="_div data-v-229b32c0 style_item  fl {{current === 'template' && msgShow === true ? 'active' : ''}}" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-229b32c0 icon icon_mb "></view>
+        <view class="_p data-v-229b32c0 word">模板</view>
+      </view>
+      <view class="_div data-v-229b32c0 style_item fl {{current === 'music' && msgShow === true ? 'active' : ''}}" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-229b32c0 icon icon_yy"></view>
+        <view class="_p data-v-229b32c0 word">音乐</view>
+      </view>
+      <view class="_div data-v-229b32c0 style_item fl {{current === 'Font' && msgShow === true ? 'active' : ''}}" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-229b32c0 icon icon_zt"></view>
+        <view class="_p data-v-229b32c0 word">字体</view>
+      </view>
+      <view class="_div data-v-229b32c0 style_item fl {{current === 'style' && msgShow === true ? 'active' : ''}}" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-229b32c0 icon icon_ys"></view>
+        <view class="_p data-v-229b32c0 word">样式</view>
+      </view>
+    </view>
+    <view class="_div data-v-229b32c0 template_style" hidden="{{!(msgShow)}}">
+      <view class="_div data-v-229b32c0 template" wx:if="{{current === 'template'}}">
+        <van-tabs animated class="_van-tabs data-v-229b32c0">
+          <van-tab title="无模板" class="_van-tab data-v-229b32c0">
+            <swiper class="_swiper data-v-229b32c0 tap_swiper" display-multiple-items="4">
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image class="_img data-v-229b32c0 huangguan" src="/assets/images/yulan_mobanku.svg" alt></image>
+                  <view class="_p data-v-229b32c0 moban">模板库</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                  <view class="_p data-v-229b32c0 name">名称</view>
+                </view>
+              </swiper-item>
+            </swiper>
+          </van-tab>
+          <van-tab title="模板一" class="_van-tab data-v-229b32c0"> 内容 2 </van-tab>
+          <van-tab title="模板二" class="_van-tab data-v-229b32c0"> 内容 3 </van-tab>
+          <van-tab title="模板三" class="_van-tab data-v-229b32c0"> 内容 4 </van-tab>
+          <van-tab title="模板四" class="_van-tab data-v-229b32c0"> 内容 5 </van-tab>
+          <van-tab title="模板四" class="_van-tab data-v-229b32c0"> 内容 5 </van-tab>
+        </van-tabs>
+      </view>
+      <view class="_div data-v-229b32c0 music" wx:if="{{current === 'music'}}">
+        <van-tabs animated class="_van-tabs data-v-229b32c0">
+          <van-tab title="无音乐" class="_van-tab data-v-229b32c0">
+            <swiper class="_swiper data-v-229b32c0 tap_swiper" display-multiple-items="4">
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0 item">
+                  <image class="_img data-v-229b32c0 huangguan" src="/assets/images/yulan_yinyueku.svg" alt></image>
+                </view>
+                <view class="_p data-v-229b32c0 name">音乐库</view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0 item">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                </view>
+                <view class="_p data-v-229b32c0 name">名称</view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0 item">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                </view>
+                <view class="_p data-v-229b32c0 name">名称</view>
+              </swiper-item>
+              <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+                <view class="_div data-v-229b32c0 item">
+                  <image src="/static/images/tree_pic.png" alt class="_img data-v-229b32c0"></image>
+                </view>
+                <view class="_p data-v-229b32c0 name">名称</view>
+              </swiper-item>
+            </swiper>
+          </van-tab>
+          <van-tab title="模板一" class="_van-tab data-v-229b32c0"> 内容 2 </van-tab>
+          <van-tab title="模板二" class="_van-tab data-v-229b32c0"> 内容 3 </van-tab>
+          <van-tab title="模板三" class="_van-tab data-v-229b32c0"> 内容 4 </van-tab>
+        </van-tabs>
+      </view>
+      <view class="_div data-v-229b32c0 Font" wx:if="{{current === 'Font'}}">
+        <swiper class="_swiper data-v-229b32c0 tap_swiper" display-multiple-items="3">
+          <swiper-item class="_swiper-item data-v-229b32c0 tap_item active">
+            <view class="_div data-v-229b32c0 item">
+              <view class="_p data-v-229b32c0 name">默认字体</view>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+            <view class="_div data-v-229b32c0 item">
+              <view class="_p data-v-229b32c0 name">楷体</view>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-229b32c0 tap_item">
+            <view class="_div data-v-229b32c0 item">
+              <view class="_p data-v-229b32c0 name">行书</view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_div data-v-229b32c0 style" wx:if="{{current === 'style'}}">
+        <view class="_div data-v-229b32c0 style_lists">
+          <view class="_div data-v-229b32c0 list active"><label class="_span data-v-229b32c0 wenzi">字上图下</label></view>
+          <view class="_div data-v-229b32c0 list "><label class="_span data-v-229b32c0 wenzi">字下图上</label></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

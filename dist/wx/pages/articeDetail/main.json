@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "popover": "../../static/popover/popover",
+        "popover-item": "../../static/popover/popover-item"
+    }
+}

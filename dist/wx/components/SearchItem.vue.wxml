@@ -1,0 +1,13 @@
+<template name="575d324e">
+  <view class="_div data-v-335c4794 m_search_history">
+    <view class="_div data-v-335c4794 m_top_title clearfix">
+      <view class="_div data-v-335c4794 title f30 color-999 fl">{{ title }}</view>
+      <view class="_div data-v-335c4794 icon icon_delete fr" wx:if="{{type === 1}}"></view>
+    </view>
+    <view class="_div data-v-335c4794 m_search_list clearfix" wx:if="{{list && list.length > 0}}">
+      <view class="_div data-v-335c4794 m_search_item f28 color-333 fl" wx:key="item" key="{{item}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        {{ item }}
+      </view>
+    </view>
+  </view>
+</template>

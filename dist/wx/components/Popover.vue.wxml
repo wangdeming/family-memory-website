@@ -1,0 +1,5 @@
+<template name="174ff797">
+  <view id="popover" wx:if="{{showPopover}}" class="_div data-v-4e2848bc popover-view" style=" {{(  'width:' +  (popW + 'rpx') +  ';' +  'right:' +  (popX + 'rpx') +  ';' +  'bottom:' +  (popY + 'rpx') +  ';')}}">
+    <view wx:key="index" key="{{index}}" class="_div data-v-4e2848bc popover-item" catchtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{datalist}}" wx:for-index="index" wx:for-item="item">{{ item }}</view>
+  </view>
+</template>

@@ -1,0 +1,68 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/publish/main",
+        "pages/mine/main",
+        "pages/MyFans/main",
+        "pages/search/main",
+        "pages/publishStep1/main",
+        "pages/setUserInfo/main",
+        "pages/changeAvatar/main",
+        "pages/revisePage/main",
+        "pages/writeArtice/main",
+        "pages/articeDetail/main",
+        "pages/preview/main",
+
+        "pages/addset/main",
+        "pages/personalData/main",
+        "pages/complain/main",
+        "pages/geoEditFamily/main",
+        "pages/CreatFamily/main",
+        "pages/myFamily/main",
+        "pages/familyName/main",
+        "pages/draftBox/main",
+        "pages/addEditset/main",
+        "pages/pubsuccess/main",
+        "pages/familyIndexBar/main",
+        "pages/familySet/main",
+        "pages/modifyFamilyAdmin/main",
+        "pages/checkUser/main",
+        "pages/otherUserFans/main",
+        "pages/login/main",
+        "pages/410/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "独家记忆",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "生活圈",
+                "pagePath": "pages/index/main",
+                "iconPath": "./static/tabs/home.png",
+                "selectedIconPath": "./static/tabs/home-active.png"
+            },
+            {
+                "text": "发布",
+                "pagePath": "pages/publish/main",
+                "iconPath": "./static/tabs/add_active.png",
+                "selectedIconPath": "./static/tabs/add_active.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/mine/main",
+                "iconPath": "./static/tabs/orders.png",
+                "selectedIconPath": "./static/tabs/orders-active.png"
+            }
+        ],
+        "position": "bottom"
+    }
+}

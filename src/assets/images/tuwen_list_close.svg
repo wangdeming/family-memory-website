@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>tuwen_list_close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图文编辑详情" transform="translate(-344.000000, -196.000000)" fill="#D8D8D8" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(-0.312500, 182.000000)">
+                <g id="Group" transform="translate(345.000000, 15.000000)">
+                    <path d="M7,5.58578644 L13.2928932,-0.707106781 L14.7071068,0.707106781 L8.41421356,7 L14.7071068,13.2928932 L13.2928932,14.7071068 L7,8.41421356 L0.707106781,14.7071068 L-0.707106781,13.2928932 L5.58578644,7 L-0.707106781,0.707106781 L0.707106781,-0.707106781 L7,5.58578644 Z" id="tuwen_list_close"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

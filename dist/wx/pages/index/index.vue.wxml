@@ -1,0 +1,54 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/tabBar.vue.wxml" /><template name="4074904f">
+  <view class="_div data-v-086b068a"><template isIndex data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-086b068a hot_sort">
+      <swiper class="_swiper data-v-086b068a tap_swiper" display-multiple-items="5">
+        <swiper-item class="_swiper-item data-v-086b068a tap_item" wx:key="index" key="{{index}}" wx:for="{{tabData}}" wx:for-index="index" wx:for-item="item"><label bindtap="handleProxy" class="_span data-v-086b068a f32 word {{activeIndex === index ? 'active' : ''}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}">{{ item }}</label></swiper-item>
+      </swiper>
+    </view>
+    <view class="_div data-v-086b068a index_main">
+      <navigator hover-class="none" url="/pages/articeDetail/main" class="_navigator data-v-086b068a item">
+        <view class="_div data-v-086b068a container">
+          <view class="_div data-v-086b068a title f36 color-333">俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！</view>
+          <view class="_div data-v-086b068a detail">
+            <image src="/static/images/pic.png" mode="widthFix" alt class="_image data-v-086b068a"></image>
+          </view>
+          <view class="_div data-v-086b068a author_info f28 color-999 clearfix">
+            <view class="_div data-v-086b068a author_avatar fl clearfix">
+              <image class="_image data-v-086b068a fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image>
+              <view class="_div data-v-086b068a name fl">用户名称</view>
+            </view>
+            <view class="_div data-v-086b068a handler_line fr clearfix">
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">250</label> <label class="_span data-v-086b068a">阅读</label></view>
+              <view class="_div data-v-086b068a dot fl"></view>
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">88</label> <label class="_span data-v-086b068a">评论</label></view>
+              <view class="_div data-v-086b068a dot fl"></view>
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">250</label> <label class="_span data-v-086b068a">点赞</label></view>
+            </view>
+          </view>
+        </view>
+      </navigator>
+      <view class="_div data-v-086b068a item">
+        <view class="_div data-v-086b068a container">
+          <view class="_div data-v-086b068a title f36 color-333">俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！</view>
+          <view class="_div data-v-086b068a detail">
+            <image src="/static/images/pic.png" mode="widthFix" alt class="_image data-v-086b068a"></image>
+          </view>
+          <view class="_div data-v-086b068a author_info f28 color-999 clearfix">
+            <view class="_div data-v-086b068a author_avatar fl clearfix">
+              <image class="_image data-v-086b068a fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image>
+              <view class="_div data-v-086b068a name fl">用户名称</view>
+            </view>
+            <view class="_div data-v-086b068a handler_line fr clearfix">
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">250</label> <label class="_span data-v-086b068a">阅读</label></view>
+              <view class="_div data-v-086b068a dot fl"></view>
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">88</label> <label class="_span data-v-086b068a">评论</label></view>
+              <view class="_div data-v-086b068a dot fl"></view>
+              <view class="_div data-v-086b068a handle_item fl"><label class="_span data-v-086b068a num">250</label> <label class="_span data-v-086b068a">点赞</label></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view> <template data="{{...$root[$kk+'2'], $root}}" is="e6a838c8"></template>
+  </view>
+</template>

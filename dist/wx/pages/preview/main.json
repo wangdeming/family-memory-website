@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "预览",
+    "usingComponents": {
+        "van-tab": "../../../static/dist/tab/index",
+        "van-tabs": "../../../static/dist/tabs/index"
+    }
+}

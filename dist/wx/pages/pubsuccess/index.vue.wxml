@@ -1,0 +1,23 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="4b1b645f">
+  <view class="_div data-v-6526c9f8 pubsuccess"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-6526c9f8 success">
+      <image src="/assets/images/fabu_chenggong.svg" alt class="_img data-v-6526c9f8"></image>
+      <view class="_div data-v-6526c9f8 pusu">发布成功</view>
+    </view>
+    <view class="_div data-v-6526c9f8 share_other">
+      <view class="_div data-v-6526c9f8 share_list">
+        <image src="/assets/images/fabu_weixin.svg" alt class="_img data-v-6526c9f8"></image> <label class="_span data-v-6526c9f8">分享给微信好友</label>
+      </view>
+      <view class="_div data-v-6526c9f8 share_list">
+        <image src="/assets/images/fabu_pengyouquan.svg" alt class="_img data-v-6526c9f8"></image> <label class="_span data-v-6526c9f8">分享给微信好友</label>
+      </view>
+      <view class="_div data-v-6526c9f8 share_list">
+        <image src="/assets/images/fabu_haibao.svg" alt class="_img data-v-6526c9f8"></image> <label class="_span data-v-6526c9f8">分享给微信好友</label>
+      </view>
+      <view class="_div data-v-6526c9f8 share_list">
+        <image src="/assets/images/fabu_lianjie.svg" alt class="_img data-v-6526c9f8"></image> <label class="_span data-v-6526c9f8">分享给微信好友</label>
+      </view>
+      <view class="_div data-v-6526c9f8 share_later"> 稍后分享 </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>add copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.1386719%" y1="132.677734%" x2="36.7929688%" y2="29.8945312%" id="linearGradient-1">
+            <stop stop-color="#FF761F" offset="0%"></stop>
+            <stop stop-color="#FD6258" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="32" cy="28" r="25"></circle>
+        <filter x="-25.0%" y="-17.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699590774   0 0 0 0 0.147620072   0 0 0 0 0  0 0 0 0.491394928 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="注册" transform="translate(-156.000000, -590.000000)" fill-rule="nonzero">
+            <g id="Bars/Tab-Bar/3-Items" transform="translate(0.000000, 590.000000)">
+                <g id="Group-10" transform="translate(156.000000, 0.000000)">
+                    <g id="Oval-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M30.75,26.75 L30.75,17.25 C30.75,16.5596441 31.3096441,16 32,16 C32.6903559,16 33.25,16.5596441 33.25,17.25 L33.25,26.75 L42.75,26.75 C43.4403559,26.75 44,27.3096441 44,28 C44,28.6903559 43.4403559,29.25 42.75,29.25 L33.25,29.25 L33.25,38.75 C33.25,39.4403559 32.6903559,40 32,40 C31.3096441,40 30.75,39.4403559 30.75,38.75 L30.75,29.25 L21.25,29.25 C20.5596441,29.25 20,28.6903559 20,28 C20,27.3096441 20.5596441,26.75 21.25,26.75 L30.75,26.75 Z" id="Combined-Shape" fill="#FFE3D7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,57 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="6f745ef0">
+  <view class="_div data-v-1c74d4d6 a_setting"><template showBack title="设置" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-1c74d4d6 box">
+      <view class="_div data-v-1c74d4d6 category" wx:if="{{source == 'one'}}">
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl main_color">生活</view>
+          <view class="_div data-v-1c74d4d6 behide fr">
+            <image src="/assets/images/set_xuanzhong.svg" alt class="_img data-v-1c74d4d6"></image>
+          </view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl">旅行</view>
+        </view>
+      </view>
+      <view class="_div data-v-1c74d4d6 category" wx:if="{{source == 'two'}}">
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl main_color">所有人可见</view>
+          <view class="_div data-v-1c74d4d6 behide fr">
+            <image src="/assets/images/set_xuanzhong.svg" alt class="_img data-v-1c74d4d6"></image>
+          </view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl">仅自己可见</view>
+        </view>
+      </view>
+      <view class="_div data-v-1c74d4d6 category" wx:if="{{source == 'three'}}">
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl main_color">所有人可评论</view>
+          <view class="_div data-v-1c74d4d6 behide fr">
+            <image src="/assets/images/set_xuanzhong.svg" alt class="_img data-v-1c74d4d6"></image>
+          </view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl ">我的粉丝可评论可评论</view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl ">不可评论</view>
+        </view>
+      </view>
+      <view class="_div data-v-1c74d4d6 category" wx:if="{{source == 'four'}}">
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl main_color">不使用</view>
+          <view class="_div data-v-1c74d4d6 behide fr">
+            <image src="/assets/images/set_xuanzhong.svg" alt class="_img data-v-1c74d4d6"></image>
+          </view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl ">家庭名称1</view>
+        </view>
+        <view class="_div data-v-1c74d4d6 set_item">
+          <view class="_div data-v-1c74d4d6 front fl ">家庭名称2</view>
+        </view>
+      </view>
+      <navigator hover-class="none" open-type="navigate" url="/pages/addset/main" class="_navigator data-v-1c74d4d6 clearfix"><button class="_button data-v-1c74d4d6 complain_com">取消</button></navigator>
+    </view>
+  </view>
+</template>

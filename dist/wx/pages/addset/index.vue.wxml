@@ -1,0 +1,34 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="590d635a">
+  <view class="_div data-v-e0349702 add_set"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-e0349702 my_set">
+      <view class="_div data-v-e0349702 set_cover">
+        <view class="_div data-v-e0349702 cover_unplode" wx:if="{{isCover}}">
+          <image class="_img data-v-e0349702 marn_img" src="/assets/images/set_fengmian.svg" alt></image>
+          <view class="_p data-v-e0349702 add_cover">添加封面</view>
+        </view>
+        <view class="_div data-v-e0349702 cover_unplode" wx:else>
+          <image class="_img data-v-e0349702 marn_img" src="/static/images/pic.png" alt></image> <label class="_span data-v-e0349702 change_cover">更换封面</label>
+        </view>
+        <view class="_div data-v-e0349702 cover_title"> 俗语：“没钱不碰三生意，有钱不做三买卖” </view>
+      </view>
+      <view class="_div data-v-e0349702 Dline"></view>
+      <view class="_div data-v-e0349702 set_list">
+        <view class="_ul data-v-e0349702">
+          <navigator hover-class="none" open-type="navigate" url="/pages/addEditset/main?source=one" class="_navigator data-v-e0349702 set_item clearfix">
+            <view class="_li data-v-e0349702"><label class="_span data-v-e0349702">分类</label> <label class="_span data-v-e0349702 fa_info"> 生活 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-e0349702"></image></label></view>
+          </navigator>
+          <navigator hover-class="none" open-type="navigate" url="/pages/addEditset/main?source=two" class="_navigator data-v-e0349702 set_item clearfix">
+            <view class="_li data-v-e0349702"><label class="_span data-v-e0349702">谁可以看</label> <label class="_span data-v-e0349702 fa_info"> 所有人可见 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-e0349702"></image></label></view>
+          </navigator>
+          <navigator hover-class="none" open-type="navigate" url="/pages/addEditset/main?source=three" class="_navigator data-v-e0349702 set_item clearfix">
+            <view class="_li data-v-e0349702"><label class="_span data-v-e0349702">评论功能</label> <label class="_span data-v-e0349702 fa_info"> 所有人可见 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-e0349702"></image></label></view>
+          </navigator>
+          <navigator hover-class="none" open-type="navigate" url="/pages/addEditset/main?source=four" class="_navigator data-v-e0349702 set_item clearfix">
+            <view class="_li data-v-e0349702"><label class="_span data-v-e0349702">共同编辑</label> <label class="_span data-v-e0349702 fa_info"> 不使用 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-e0349702"></image></label></view>
+          </navigator>
+        </view>
+      </view> <button class="_button data-v-e0349702 complain_com">发布</button>
+      <view class="_div data-v-e0349702 save_draft">存草稿</view>
+    </view>
+  </view>
+</template>

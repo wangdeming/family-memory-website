@@ -1,0 +1,28 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="5beb25db">
+  <view class="_div data-v-8a13f2d4 set_Family"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-8a13f2d4 my_set">
+      <view class="_div data-v-8a13f2d4 family_number">
+        <view class="_div data-v-8a13f2d4 main_mumber" wx:if="{{type == 1}}">
+          <image class="_img data-v-8a13f2d4 huangguan" src="/assets/images/family_huangguan.svg" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-8a13f2d4 add_mun" src="/assets/images/family_add.svg" alt></image>
+        </view>
+      </view>
+      <view class="_div data-v-8a13f2d4 set_list">
+        <view class="_ul data-v-8a13f2d4">
+          <view class="_li data-v-8a13f2d4"><label class="_span data-v-8a13f2d4">家庭名称</label> <label class="_span data-v-8a13f2d4 fa_info"> 某某的家庭 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-8a13f2d4"></image></label></view>
+          <view class="_li data-v-8a13f2d4"><label class="_span data-v-8a13f2d4">管理员转让</label> <label class="_span data-v-8a13f2d4 fa_info"> 我 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-8a13f2d4"></image></label></view>
+          <view class="_li data-v-8a13f2d4"><label class="_span data-v-8a13f2d4">谁可参与共同编辑</label> <label class="_span data-v-8a13f2d4 fa_info"> 所有人 <image src="/assets/images/my_icon_more copy 7.svg" alt class="_img data-v-8a13f2d4"></image></label></view>
+        </view>
+      </view>
+    </view> <button class="_button data-v-8a13f2d4 set_com bg-fff ">退出家庭</button>
+  </view>
+</template>

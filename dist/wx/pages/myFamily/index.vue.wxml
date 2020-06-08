@@ -1,0 +1,48 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="071225ae">
+  <view class="_div data-v-4300ede4 my_Family"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-4300ede4 family_top">
+      <view class="_div data-v-4300ede4 home_top">
+        <image class="_img data-v-4300ede4 bar_pic" src="/assets/images/family_bar_pic.svg" alt></image>
+        <image class="_img data-v-4300ede4 bar_jia" src="/assets/images/family_jia.svg" alt></image>
+        <view class="_div data-v-4300ede4 fa_name"><label class="_span data-v-4300ede4 name"> 某某的家庭</label> <label class="_span data-v-4300ede4 change_fa">切换 <image src="/assets/images/family_xiala.svg" alt class="_img data-v-4300ede4"></image></label></view>
+      </view>
+      <view class="_div data-v-4300ede4 family_number">
+        <view class="_div data-v-4300ede4 main_mumber" wx:if="{{type == 1}}">
+          <image class="_img data-v-4300ede4 huangguan" src="/assets/images/family_huangguan.svg" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 touxiang" src="/assets/images/girl.png" alt></image>
+          <image class="_img data-v-4300ede4 add_mun" src="/assets/images/family_add.svg" alt></image>
+        </view>
+      </view>
+      <view class="_div data-v-4300ede4 family_Memories">
+        <view class="_div data-v-4300ede4 memories_Title"> 家庭回忆（22） </view>
+        <view class="_div data-v-4300ede4 memories_Con">
+          <view class="_div data-v-4300ede4 memories_list">
+            <view class="_div data-v-4300ede4 list_Title"> 俗语：“没钱不碰三生意，有钱不做三买 卖”，创业者值得一看！ </view>
+            <view class="_div data-v-4300ede4 list_Image">
+              <image src="/static/images/pic.png" alt class="_img data-v-4300ede4"></image>
+              <view class="_div data-v-4300ede4 caozuo"><label class="_span data-v-4300ede4">公开</label> <label class="_span data-v-4300ede4">共同编辑</label></view>
+            </view>
+            <view class="_div data-v-4300ede4 handler_line clearfix">
+              <view class="_div data-v-4300ede4 data_line fl clearfix">
+                <view class="_div data-v-4300ede4 data_item fl"><label class="_span data-v-4300ede4 num">250</label> <label class="_span data-v-4300ede4">阅读</label></view>
+                <view class="_div data-v-4300ede4 dot fl"></view>
+                <view class="_div data-v-4300ede4 data_item fl"><label class="_span data-v-4300ede4 num">88</label> <label class="_span data-v-4300ede4">评论</label></view>
+                <view class="_div data-v-4300ede4 dot fl"></view>
+                <view class="_div data-v-4300ede4 data_item fl"><label class="_span data-v-4300ede4 num">250</label> <label class="_span data-v-4300ede4">点赞</label></view>
+              </view>
+              <view class="_div data-v-4300ede4 fr more_btn"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

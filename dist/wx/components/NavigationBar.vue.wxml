@@ -1,0 +1,47 @@
+<template name="394ff1d1">
+  <view class="_div data-v-6c2e1336">
+    <view class="_div data-v-6c2e1336 navigation-bar color-000" style=" {{(  'padding-top:' +  (paddingTop + 'px') +  ';' +  'height:' +  (height + 'px') +  ';' +  'background-color:' +  (background || barStyle.background) +  ';')}}">
+      <view class="_div data-v-6c2e1336 isIndex box" wx:if="{{isIndex}}">
+        <view class="_div data-v-6c2e1336 h_search">
+          <view bindtap="handleProxy" class="_div data-v-6c2e1336 top_sort fl clearfix" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_span data-v-6c2e1336 selected fl color-333 fontbold">{{ activeTitle }}</label> <label class="_span data-v-6c2e1336 icon icon_arrow fl {{active ? 'active' : ''}}"></label></view>
+          <view wx:if="{{active}}" class="_div data-v-6c2e1336 select_box color-333 f36">
+            <view bindtap="handleProxy" class="_div data-v-6c2e1336 option" data-eventid="{{'1'}}" data-comkey="{{$k}}">广场</view>
+            <view bindtap="handleProxy" class="_div data-v-6c2e1336 option" data-eventid="{{'2'}}" data-comkey="{{$k}}">关注</view>
+          </view>
+        </view>
+        <view class="_div data-v-6c2e1336 appName" style=" {{(  'text-align:' +  barStyle.textAlign +  ';' +  'color:' +  (color || barStyle.color) +  ';' +  'font-size:' +  (barStyle.fontSize + 'px') +  ';' +  'line-height:' +  (barStyle.height + 'px') +  ';' +  'font-weight:' +  'bold' +  ';')}}">{{ appName }}
+        </view>
+      </view>
+      <view class="_div data-v-6c2e1336 isMine box" wx:if="{{isMine}}">
+        <view class="_div data-v-6c2e1336 handler clearfix" wx:if="{{isLogin}}">
+          <navigator hover-class="none" url="/pages/setUserInfo/main" open-type="navigate" class="_navigator data-v-6c2e1336 icon i_set">
+            <image style="width: 21px;height: 22px" src="/static/images/my_set.svg" class="_image data-v-6c2e1336"></image>
+          </navigator>
+          <view class="_div data-v-6c2e1336 icon i_share">
+            <image style="width: 21px;height: 19px" src="/static/images/my_share.svg" class="_image data-v-6c2e1336"></image>
+          </view>
+        </view>
+        <view class="_div data-v-6c2e1336 title" wx:if="{{title}}" style=" {{(  'text-align:' +  'center' +  ';' +  'font-weight:' +  'bold' +  ';' +  'color:' +  (color || barStyle.color) +  ';' +  'font-size:' +  (barStyle.fontSize + 'px') +  ';' +  'line-height:' +  (barStyle.height + 'px') +  ';')}}">
+          {{ title }}
+        </view>
+      </view>
+      <view class="_div data-v-6c2e1336 box" wx:if="{{!isIndex && !isMine}}">
+        <view class="_div data-v-6c2e1336">
+          <view class="_div data-v-6c2e1336 goback" bindtap="handleProxy" wx:if="{{showBack}}" data-eventid="{{'3'}}" data-comkey="{{$k}}" style=" {{(  'height:' +  (barStyle.height + 'px') +  ';' +  'line-height:' +  (barStyle.height + 'px') +  ';')}}">
+            <image src="/static/tabs/back.svg" style alt class="_image data-v-6c2e1336"></image>
+          </view>
+          <view class="_div data-v-6c2e1336 title" wx:if="{{title}}" style=" {{(  'text-align:' +  'center' +  ';' +  'font-weight:' +  'bold' +  ';' +  'color:' +  (color || barStyle.color) +  ';' +  'font-size:' +  (barStyle.fontSize + 'px') +  ';' +  'line-height:' +  (barStyle.height + 'px') +  ';')}}">
+            {{ title }}
+          </view>
+          <view class="_div data-v-6c2e1336 icon_share" wx:if="{{showShare}}">
+            <image src="/static/images/my_share.svg" style alt class="_image data-v-6c2e1336"></image>
+          </view>
+          <view class="_div data-v-6c2e1336 title showCenter" wx:if="{{showAppName}}" style=" {{(  'text-align:' +  'center' +  ';' +  'font-weight:' +  'bold' +  ';' +  'color:' +  (color || barStyle.color) +  ';' +  'font-size:' +  (barStyle.fontSize + 'px') +  ';' +  'line-height:' +  (barStyle.height + 'px') +  ';')}}">
+            {{ appName }}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-6c2e1336 fixBlock" style=" {{('width:' + '100%' + ';' + 'height:' + (height + 'px') + ';')}}"></view>
+  </view>
+</template>

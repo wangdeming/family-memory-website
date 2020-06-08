@@ -1,0 +1,4 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="66b77460">
+  <view class="_div data-v-2deea9f6 m_input_page"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-2deea9f6 box">
+      <view class="_div data-v-2deea9f6 textarea"><textarea focus name id maxlength="30" value="{{value}}" class="_textarea data-v-2deea9f6" /></view> <view class="_div data-v-2deea9f6 btn active">完成</view></view></view></template>

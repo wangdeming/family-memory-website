@@ -1,0 +1,10 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/tabBar.vue.wxml" />
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/AddPart.vue.wxml" />
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/Popover.vue.wxml" />
+<import src="/components/Share.vue.wxml" />
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/SearchItem.vue.wxml" />

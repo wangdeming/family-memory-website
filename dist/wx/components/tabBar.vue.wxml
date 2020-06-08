@@ -1,0 +1,12 @@
+<template name="e6a838c8">
+  <view class="_div data-v-54a259d7 footer ">
+    <view class="_div data-v-54a259d7 box clearfix">
+      <view class="_div data-v-54a259d7 item fl {{[item.isSpecial ? 'special_img' : '']}}" bindtap="handleProxy" wx:key="item" key="{{item}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{tabBar.list}}" wx:for-index="index" wx:for-item="item">
+        <view class="_p data-v-54a259d7 item-images">
+          <image mode="aspectFit" src="{{currentNavIndex === index ? item.selectedIconPath : item.iconPath}}" animation="{{item.isSpecial ? animation : ''}}" alt="iconPath" class="_image data-v-54a259d7 {{currentNavIndex === index ? 'active' : ''}}" style=" {{(  'width:' +  (item.width + 'rpx') +  ';' +  'height:' +  (item.height + 'rpx') +  ';')}}"></image>
+        </view>
+        <view class="_p data-v-54a259d7 f24 footer-word" wx:if="{{item.text}}" style=" {{(  'color:' +  (currentNavIndex === index ? tabBar.selectedColor : tabBar.color) +  ';')}}">{{ item.text }}</view>
+      </view>
+    </view>
+  </view>
+</template>

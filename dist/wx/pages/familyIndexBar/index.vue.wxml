@@ -1,0 +1,39 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="789e599e">
+  <view class="_div data-v-6c79b5c3 Create_family"><template showBack title="创建家庭" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-6c79b5c3 numbers">
+      <view class="_div data-v-6c79b5c3 m_search_line mb-20 clearfix">
+        <view class="_div data-v-6c79b5c3 m_search_box fl">
+          <view class="_div data-v-6c79b5c3 m_box"><input type="text" placeholder="输入关键词搜索" placeholder-style="color: #999999" class="_input data-v-6c79b5c3" /></view>
+        </view>
+        <view class="_div data-v-6c79b5c3 m_search_btn fl f32 color-333">取消</view>
+      </view>
+      <view class="_div data-v-6c79b5c3 serch-info">可邀请相互关注的好友创建家庭，共同记录家庭专属回忆</view>
+    </view>
+    <view class="_div data-v-6c79b5c3 Addressbook">
+      <view class="_div data-v-6c79b5c3 index-list">
+        <scroll-view class="_scroll-view data-v-6c79b5c3 scroll_list" scroll-y="true" bindscroll="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <view class="_ul data-v-6c79b5c3 index-list-wrap" ref="indexWrap">
+            <view wx:key="index" key="{{index}}" class="_li data-v-6c79b5c3 index-group" ref="indexGroup" id="{{group.title}}" wx:for="{{data}}" wx:for-index="index" wx:for-item="group">
+              <view class="_h3 data-v-6c79b5c3 index-group-title">{{ group.title }}</view>
+              <view class="_ul data-v-6c79b5c3 bg-fff">
+                <view wx:key="index1" key="{{index1}}" class="_li data-v-6c79b5c3 index-group-item" bindtap="handleProxy" data-eventid="{{'0_'+index+'-'+index1}}" data-comkey="{{$k}}" wx:for="{{group.items}}" wx:for-index="index1" wx:for-item="item">
+                  <image src="{{item.avatar}}" class="_img data-v-6c79b5c3 avatar" alt></image> <label class="_span data-v-6c79b5c3 name">{{ item.name }}</label> <label class="_label data-v-6c79b5c3 checkbox item_sel">
+                    <checkbox color="#FD6258" class="_checkbox data-v-6c79b5c3" /></label>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+        <view class="_div data-v-6c79b5c3 index-nav">
+          <view class="_ul data-v-6c79b5c3">
+            <view wx:key="index" key="{{index}}" data-index="{{index}}" class="_li data-v-6c79b5c3 nav-item {{[currentIndex === index ? 'active' : '']}}" wx:for="{{indexList}}" wx:for-index="index" wx:for-item="item">{{ item }}</view>
+            <view class="_li data-v-6c79b5c3 nav-item">#</view>
+          </view>
+        </view>
+        <transition name="fade" class="_transition data-v-6c79b5c3">
+          <view wx:if="{{moving}}" class="_div data-v-6c79b5c3 index-indicator">{{ currentIndicator }}</view>
+        </transition>
+      </view>
+    </view> <button class="_button data-v-6c79b5c3 complain_com">确定</button>
+  </view>
+</template>

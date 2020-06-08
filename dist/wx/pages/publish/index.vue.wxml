@@ -1,0 +1,12 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/tabBar.vue.wxml" /><template name="15992868">
+  <view class="_div data-v-cd358172 m_publish"><template title="开始制作" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template> <template data="{{...$root[$kk+'1'], $root}}" is="e6a838c8"></template>
+    <image class="_image data-v-cd358172 publish_bg" src="/static/images/tuwen_pic@3x.png" mode="aspectFill" alt></image>
+    <view class="_div data-v-cd358172 publish_type" animation="{{animation}}">
+      <view class="_div data-v-cd358172 type_item" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="/static/images/tuwen.svg" class="_image data-v-cd358172"></image>
+        <view class="_p data-v-cd358172 word color-333 f32">图文</view>
+      </view>
+    </view>
+  </view>
+</template>

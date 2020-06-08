@@ -1,0 +1,17 @@
+<template name="9a9bab5e">
+  <view class="_div data-v-3d4680b6 share_block" hidden="{{!(showShare)}}">
+    <view class="_div data-v-3d4680b6 content {{[showShare ? 'active' : '']}}"><button class="_button data-v-3d4680b6 share_item" hover-class="none" open-type="share">
+        <image mode="widthFix" src="/static/images/details_share_weixin.svg" class="_image data-v-3d4680b6"></image>
+        <view class="_p data-v-3d4680b6 share_name">微信好友</view>
+      </button>
+      <view class="_div data-v-3d4680b6 share_item">
+        <image mode="widthFix" src="/static/images/details_share_pengyouquan.svg" class="_image data-v-3d4680b6"></image>
+        <view class="_p data-v-3d4680b6 share_name">朋友圈</view>
+      </view>
+      <view class="_div data-v-3d4680b6 share_item">
+        <image mode="widthFix" src="/static/images/details_share_lianjie.svg" class="_image data-v-3d4680b6"></image>
+        <view class="_p data-v-3d4680b6 share_name">复制链接</view>
+      </view>
+    </view>
+  </view>
+</template>

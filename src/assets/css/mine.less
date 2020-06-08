@@ -1,0 +1,377 @@
+@import './var.less';
+body {
+    height: 100%;
+}
+//创建家庭
+.CreatFamily {
+    height: 100%;
+    background-color: #fff;
+    .my_Family {
+        margin: 50px 30px 0;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+
+        .Family_t1 {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: -0.45px;
+            margin: 37px 0 6px 0;
+        }
+
+        .Family_t2 {
+            font-size: 16px;
+            letter-spacing: -0.4px;
+        }
+    }
+
+    .complain_com {
+        margin: 15px 30px 0;
+        background: @theme_color;
+        border-radius: 22px;
+        font-size: 18px;
+        color: #ffffff;
+        letter-spacing: -0.45px;
+        border: 0px;
+    }
+}
+//家庭设置
+.set_Family {
+    background: #fff;
+
+    .my_set {
+        .family_number {
+            border-bottom: 12px solid #f8f8f8;
+            display: flex;
+            padding: 30px 15px 4px 10px;
+
+            .main_mumber {
+                .huangguan {
+                    position: absolute;
+                    margin-left: 2px;
+                    margin-top: -4px;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .touxiang {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                    flex: 7;
+                    margin-bottom: 10px;
+                }
+
+                .add_mun {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    padding-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .set_list {
+            ul {
+                padding-left: 15px;
+
+                li {
+                    list-style: none;
+                    font-size: 18px;
+                    color: #303643;
+                    letter-spacing: 0.18px;
+                    line-height: 60px;
+                    border-bottom: 1px solid #cccccc;
+
+                    .fa_info {
+                        float: right;
+                        padding-right: 14px;
+                        color: #999999;
+                        .word {
+                            max-width: 200px;
+                            height: 24px;
+                            line-height: 24px;
+                            margin-top: 18px;
+                            display: block;
+                            float: left;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                        img {
+                            padding-left: 17px;
+                            width: 6px;
+                            height: 12px;
+                            margin-top: 25px;
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .set_com {
+        margin: 60px 30px 0;
+        border: 1px solid #fd6258;
+        border-radius: 22px;
+        font-size: 18px;
+        color: #fd6258;
+        letter-spacing: -0.45px;
+    }
+}
+// 我的家庭
+.my_Family {
+    .family_top {
+        .home_top {
+            text-align: center;
+
+            .bar_pic {
+                width: 100%;
+                height: 66px;
+            }
+
+            .bar_jia {
+                width: 74px;
+                height: 74px;
+                position: relative;
+                top: -36px;
+            }
+
+            .fa_name {
+                margin-top: -40px;
+                position: relative;
+                .name {
+                    font-size: 18px;
+                    color: #333333;
+                    letter-spacing: 0.77px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+
+                .change_fa {
+                    border: 1px solid #cccccc;
+                    border-radius: 15px;
+                    padding: 2px 10px;
+                    font-size: 14px;
+                    color: #666666;
+                    letter-spacing: 0.47px;
+                    img {
+                        width: 10px;
+                        padding-left: 3px;
+                        height: 6px;
+                        transition: all 0.2s linear;
+                        transform: rotate(0) translateY(-1px);
+                    }
+                    .model-list {
+                        width: 120px;
+                        overflow: hidden;
+                        position: absolute;
+                        background: #fff;
+                        z-index: 10;
+                        border: 1px solid #dedede;
+                        left: 50%;
+                        top: 63px;
+                        transition: all 0.2s linear;
+                        transform: translateX(-60px);
+                        .family-item {
+                            padding: 0 10px;
+                            font-size: 14px;
+                            height: 30px;
+                            line-height: 30px;
+                            border-top: 1px solid #dedede;
+                            .word {
+                                // width: 100px;
+                                margin: 0 auto;
+                                white-space: nowrap;
+                                overflow: hidden;
+                            }
+                        }
+                        .family-item:first-child {
+                            border: none;
+                        }
+                    }
+                }
+                .change_fa.active {
+                    img {
+                        transform: rotate(180deg) translateY(2px);
+                    }
+                }
+            }
+        }
+
+        .family_number {
+            border-bottom: 1px solid #dfdfdf;
+            display: flex;
+            padding: 20px 15px 12px 20px;
+
+            .main_mumber {
+                margin-bottom: 10px;
+
+                .huangguan {
+                    position: absolute;
+                    margin-left: 2px;
+                    margin-top: -4px;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .touxiang {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                    flex: 7;
+                }
+
+                .add_mun {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        .family_Memories {
+            .memories_Title {
+                height: 25px;
+                line-height: 25px;
+                font-size: 18px;
+                color: #333333;
+                letter-spacing: 0.29px;
+                font-weight: bold;
+                padding: 15px;
+            }
+
+            .memories_Con {
+                background: #f8f8f8;
+                padding: 15px;
+
+                .memories_list {
+                    padding: 15px 15px;
+                    background: #ffffff;
+                    border-radius: 6px;
+
+                    .list_Title {
+                        font-size: 16px;
+                        color: #333333;
+                        letter-spacing: 0.62px;
+                        text-align: justify;
+                        font-weight: bold;
+                        padding-bottom: 10px;
+                    }
+
+                    .list_Image {
+                        height: 183px;
+
+                        img {
+                            width: 100%;
+                            height: 183px;
+                            border-radius: 5px;
+                            overflow: hidden;
+                        }
+
+                        .caozuo {
+                            position: relative;
+                            top: -30px;
+                            font-size: 12px;
+                            left: 15px;
+
+                            span {
+                                font-size: 12px;
+                                color: #e4e4e4;
+                                letter-spacing: 0.53px;
+                                text-align: center;
+                                opacity: 0.57;
+                                background: rgba(0, 0, 0, 0.58);
+                                border-radius: 11px;
+                                padding: 2px 5px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+
+                    .handler_line {
+                        height: 28rpx;
+                        line-height: 28rpx;
+                        margin-top: 30rpx;
+                        position: relative;
+
+                        .data_line {
+                            .data_item {
+                                font-size: 14px;
+                                color: #999999;
+                                letter-spacing: 0.54px;
+
+                                .num {
+                                    margin-right: 4rpx;
+                                }
+                            }
+
+                            .dot {
+                                width: 10rpx;
+                                height: 10rpx;
+                                background: #eee;
+                                border-radius: 100%;
+                                margin: 0 10rpx;
+                                margin-top: 10rpx;
+                            }
+                        }
+
+                        .more_btn {
+                            width: 88rpx;
+                            height: 88rpx;
+                            background: url('../images/details_more.svg') no-repeat center right;
+                            background-size: 40rpx 8rpx;
+                            position: absolute;
+                            right: 0;
+                            bottom: -30rpx;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//家庭-共同编辑管理
+.geoEditFamily {
+    background: #fff;
+    height: 100vh;
+
+    .box {
+        .geoEdit_item {
+            height: 80px;
+            line-height: 80px;
+            padding: 0 15px;
+            border-bottom: 1px solid #dfdfdf;
+            font-size: 18px;
+            color: #333333;
+            letter-spacing: 0.69px;
+
+            img {
+                width: 50px;
+                height: 50px;
+                position: relative;
+                top: 15px;
+                left: 3px;
+                margin-right: 10px;
+                border-radius: 100%;
+                float: left;
+            }
+            .name {
+                width: 60%;
+                height: 80px;
+                line-height: 80px;
+                overflow: hidden;
+                display: inline-block;
+                float: left;
+            }
+        }
+    }
+}

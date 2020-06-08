@@ -1,0 +1,9 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="40e0d56a">
+  <view class="_div data-v-08b67365 CreatFamily"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-08b67365 my_Family">
+      <image src="/assets/images/family_pic.svg" alt class="_img data-v-08b67365"></image>
+      <view class="_div data-v-08b67365 Family_t1 color-333">创建“我的家庭” 开启家庭回忆</view>
+      <view class="_div data-v-08b67365 Family_t2 color_999"> 全家一起写回忆，编织专属全家的共同记忆</view>
+    </view> <button class="_button data-v-08b67365 complain_com" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">创建我的家庭</button>
+  </view>
+</template>

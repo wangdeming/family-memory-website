@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>family_jia</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.1386719%" y1="132.677734%" x2="36.7929688%" y2="29.8945312%" id="linearGradient-1">
+            <stop stop-color="#FF761F" offset="0%"></stop>
+            <stop stop-color="#FD6258" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="30" cy="30" r="30"></circle>
+        <filter x="-19.2%" y="-15.8%" width="138.3%" height="138.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699590774   0 0 0 0 0.147620072   0 0 0 0 0  0 0 0 0.199190444 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的家庭" transform="translate(-151.000000, -94.000000)" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(158.000000, 99.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <path d="M41.087452,29.389731 L41.087452,38.8703729 C41.087452,40.2573073 40.7232271,41.4872152 39.8619987,42.3416833 C38.8624175,43.331727 37.8521581,43.8711723 36.6787897,43.8711723 L23.3227111,43.8711723 C22.1123335,43.8711723 20.7468214,43.2581756 19.8209505,42.3411384 C18.8964188,41.4238634 18.278045,40.0702254 18.278045,38.8703729 L18.278045,30.0141664 L17.2893435,30.9965601 L16,29.7214071 L27.9792881,17.8185456 C28.5032761,17.2981557 29.2151589,17 29.9727662,17 C30.7296022,17 31.4411476,17.2980144 31.9649012,17.8172145 L44,29.7199195 L42.713658,30.9980478 L41.087452,29.389731 Z M32.9217742,27.2066172 L32.9217742,28.1093403 C31.9688647,28.1093403 31.5137504,28.3893357 30.7053587,29.3681221 L30.0007504,30.2212496 L29.296142,29.3681221 C28.4879033,28.3895209 28.0323989,28.1093403 27.0793732,28.1093403 C26.9282995,28.1093403 26.7669986,28.1177118 26.5939504,28.1349907 C25.5954277,28.2342561 24.6733132,29.2334554 24.5513547,30.740939 L24.548723,31.4115338 C24.6780365,33.0940378 25.9812041,34.6109237 29.9695187,37.5020846 C29.9899657,37.5169113 30.0111817,37.5169113 30.0317053,37.5020291 C34.0202054,34.6104892 35.3234911,33.0936877 35.4501461,31.480113 L35.4529404,30.8116037 C35.3279355,29.2334424 34.4056848,28.2342596 33.4062911,28.1349356 C33.234101,28.1177126 33.072859,28.1093403 32.9217742,28.1093403 L32.9217742,27.2066172 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

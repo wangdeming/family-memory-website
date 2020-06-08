@@ -1,0 +1,20 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="78b1b63a">
+  <view class="_div data-v-b4a07e70 draft"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-b4a07e70 draft_Con">
+      <view class="_div data-v-b4a07e70 draft_list">
+        <view class="_div data-v-b4a07e70 list_Title"> 俗语：“没钱不碰三生意，有钱不做三买 卖”，创业者值得一看！ </view>
+        <view class="_div data-v-b4a07e70 list_Image">
+          <image src="/static/images/pic.png" alt class="_img data-v-b4a07e70"></image>
+        </view>
+        <view class="_div data-v-b4a07e70 list_data"><label class="_span data-v-b4a07e70 operating">编辑</label> <label class="_span data-v-b4a07e70 operating">设置</label> <label class="_span data-v-b4a07e70 operating">删除</label> <label class="_span data-v-b4a07e70 Publish">发布</label></view>
+      </view>
+      <view class="_div data-v-b4a07e70 draft_list">
+        <view class="_div data-v-b4a07e70 list_Title"> 俗语：“没钱不碰三生意，有钱不做三买 卖”，创业者值得一看！ </view>
+        <view class="_div data-v-b4a07e70 list_Image">
+          <image src="/static/images/pic.png" alt class="_img data-v-b4a07e70"></image>
+        </view>
+        <view class="_div data-v-b4a07e70 list_data"><label class="_span data-v-b4a07e70 operating">编辑</label> <label class="_span data-v-b4a07e70 operating">设置</label> <label class="_span data-v-b4a07e70 operating">删除</label> <label class="_span data-v-b4a07e70 Publish">发布</label></view>
+      </view>
+    </view>
+  </view>
+</template>

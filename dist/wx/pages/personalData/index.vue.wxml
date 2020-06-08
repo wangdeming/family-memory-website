@@ -1,0 +1,50 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="08f4cb83">
+  <view class="_div data-v-3bd2ece8 personalData"><template showBack showShare data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-3bd2ece8 user_info">
+      <view class="_div data-v-3bd2ece8 info_detail">
+        <view class="_div data-v-3bd2ece8 user_main">
+          <view class="_div data-v-3bd2ece8 avatar">
+            <image src="../../assets/images/girl.png" class="_image data-v-3bd2ece8"></image>
+          </view>
+          <view class="_div data-v-3bd2ece8 user_name color-333 f36 fontbold">用户名称</view>
+          <view class="_div data-v-3bd2ece8 user_id color-999 f28">ID:123456789</view>
+        </view>
+        <view class="_div data-v-3bd2ece8 user_data user_gz">
+          <view class="_p data-v-3bd2ece8 num f32 color-333">54</view>
+          <view class="_p data-v-3bd2ece8 word f32 color-999">关注</view>
+        </view>
+        <view class="_div data-v-3bd2ece8 user_data user_fans">
+          <view class="_p data-v-3bd2ece8 num f32 color-333">87</view>
+          <view class="_p data-v-3bd2ece8 word f32 color-999">粉丝</view>
+        </view>
+        <view class="_div data-v-3bd2ece8 personal_btn"><label class="_span data-v-3bd2ece8 num color-fff f28">家庭</label></view>
+      </view>
+      <view class="_div data-v-3bd2ece8 user_des f28 color-666"> 默认获取微信的个性签默认获取微信的个性签默 认获取微信的个性签 </view>
+    </view>
+    <view class="_div data-v-3bd2ece8 user_article clearfix">
+      <view class="_div data-v-3bd2ece8 tab_bar_item active fl">文章<text class="_text data-v-3bd2ece8 num">999</text></view>
+      <view class="_div data-v-3bd2ece8 tab_bar_item fl">收藏<text class="_text data-v-3bd2ece8 num">999</text></view>
+    </view>
+    <view class="_div data-v-3bd2ece8 container">
+      <view class="_div data-v-3bd2ece8 article_list">
+        <view class="_div data-v-3bd2ece8 article_item">
+          <view class="_div data-v-3bd2ece8 title"> 俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！ </view>
+          <view class="_div data-v-3bd2ece8 pic_box">
+            <image mode="aspectFill" src="/static/images/pic.png" class="_image data-v-3bd2ece8"></image>
+            <view class="_div data-v-3bd2ece8 tip_line"><label class="_span data-v-3bd2ece8 tip_btn">公开</label> <label class="_span data-v-3bd2ece8 tip_btn">共同编辑</label></view>
+          </view>
+          <view class="_div data-v-3bd2ece8 handler_line clearfix">
+            <view class="_div data-v-3bd2ece8 data_line fl clearfix">
+              <view class="_div data-v-3bd2ece8 data_item fl"><label class="_span data-v-3bd2ece8 num">250</label> <label class="_span data-v-3bd2ece8">阅读</label></view>
+              <view class="_div data-v-3bd2ece8 dot fl"></view>
+              <view class="_div data-v-3bd2ece8 data_item fl"><label class="_span data-v-3bd2ece8 num">88</label> <label class="_span data-v-3bd2ece8">评论</label></view>
+              <view class="_div data-v-3bd2ece8 dot fl"></view>
+              <view class="_div data-v-3bd2ece8 data_item fl"><label class="_span data-v-3bd2ece8 num">250</label> <label class="_span data-v-3bd2ece8">点赞</label></view>
+            </view>
+            <view class="_div data-v-3bd2ece8 fr more_btn"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

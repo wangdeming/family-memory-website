@@ -1,0 +1,4 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="8daf1478">
+  <view class="_div data-v-fe03d882 m_write_artice"><template showBack title="添加文字" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-fe03d882 box">
+      <view class="_div data-v-fe03d882 textarea"><textarea name maxlength="5000" focus placeholder="输入内容" value="{{inputStr}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_textarea data-v-fe03d882" /></view> <view class="_div data-v-fe03d882 handler clearfix"><view class="_div data-v-fe03d882 count fl"><text class="_text data-v-fe03d882 num">0</text> <text class="_text data-v-fe03d882 num">/</text> <text class="_text data-v-fe03d882 num">5000</text></view> <view class="_div data-v-fe03d882 btn active fr" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">完成</view></view></view></view></template>

@@ -1,0 +1,56 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/SearchItem.vue.wxml" /><template name="1e1b4fbe">
+  <view class="_div data-v-27caa946 counter-warp"><template showBack title="搜索" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-27caa946 m_search">
+      <view class="_div data-v-27caa946 container">
+        <view class="_div data-v-27caa946 m_search_line mb-20 clearfix">
+          <view class="_div data-v-27caa946 m_search_box fl">
+            <view class="_div data-v-27caa946 m_box"><input type="text" placeholder="输入关键词搜索" placeholder-style="color: #999999" class="_input data-v-27caa946" /></view>
+          </view>
+          <view class="_div data-v-27caa946 m_search_btn fl f32 color-333">取消</view>
+        </view>
+        <view class="_div data-v-27caa946"><template data="{{...$root[$kk+'1'], $root}}" is="575d324e"></template> <template type="2" data="{{...$root[$kk+'2'], $root}}" is="575d324e"></template></view>
+        <view class="_div data-v-27caa946 m_search_result">
+          <view class="_div data-v-27caa946 u_item">
+            <view class="_div data-v-27caa946 author_info f28 color-999 clearfix">
+              <view class="_div data-v-27caa946 author_avatar fl clearfix">
+                <image class="_image data-v-27caa946 fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image>
+                <view class="_div data-v-27caa946 name fl">用户名称</view>
+              </view>
+              <view class="_div data-v-27caa946 handler_line fr"><label class="_span data-v-27caa946">2019-20-20</label></view>
+            </view>
+            <view class="_div data-v-27caa946 article_detail clearfix">
+              <view class="_div data-v-27caa946 article_pic fl">
+                <image src="/static/images/pic.png" mode="aspectFit" class="_image data-v-27caa946"></image>
+              </view>
+              <view class="_div data-v-27caa946 article_des fr">
+                <view class="_h3 data-v-27caa946 title f32 color-333">俗语：“没钱不碰三生意呀</view>
+                <view class="_p data-v-27caa946 word f28 color-999">没钱不碰三生意没钱不碰三生意没钱不碰三生意意意意没没钱不碰三生意没钱不碰三生意没钱不碰三生意意意意没</view>
+                <view class="_div data-v-27caa946 count f24 color-999">345</view>
+              </view>
+            </view>
+          </view>
+          <view class="_div data-v-27caa946 u_item">
+            <view class="_div data-v-27caa946 author_info f28 color-999 clearfix">
+              <view class="_div data-v-27caa946 author_avatar fl clearfix">
+                <image class="_image data-v-27caa946 fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image>
+                <view class="_div data-v-27caa946 name fl">用户名称</view>
+              </view>
+              <view class="_div data-v-27caa946 handler_line fr"><label class="_span data-v-27caa946">2019-20-20</label></view>
+            </view>
+            <view class="_div data-v-27caa946 article_detail clearfix">
+              <view class="_div data-v-27caa946 article_pic fl">
+                <image src="/static/images/pic.png" mode="aspectFit" class="_image data-v-27caa946"></image>
+              </view>
+              <view class="_div data-v-27caa946 article_des fr">
+                <view class="_h3 data-v-27caa946 title f32 color-333">俗语：“没钱不碰三生意呀</view>
+                <view class="_p data-v-27caa946 word f28 color-999">没钱不碰三生意没钱不碰三生意没钱不碰三生意意意意没没钱不碰三生意没钱不碰三生意没钱不碰三生意意意意没</view>
+                <view class="_div data-v-27caa946 count f24 color-999">345</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

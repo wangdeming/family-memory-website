@@ -1,0 +1,1 @@
+<import src="/pages/familyIndexBar/index.vue.wxml" /><template is="789e599e" data="{{ ...$root['0'], $root }}"/>

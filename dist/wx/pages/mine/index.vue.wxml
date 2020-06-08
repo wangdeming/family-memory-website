@@ -1,0 +1,66 @@
+<import src="/components/NavigationBar.vue.wxml" />
+<import src="/components/tabBar.vue.wxml" /><template name="5794bc8c">
+  <view class="_div data-v-3badda1e"><template isMine title="我的" data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-3badda1e m_login" wx:if="{{!isLogin}}">
+      <image class="_image data-v-3badda1e login_bg" mode="aspectFill" src="/static/images/login_pic.svg"></image>
+      <view class="_div data-v-3badda1e box">
+        <view class="_div data-v-3badda1e logo">
+          <image mode="aspectFill" src="/static/images/login_logo.svg" class="_image data-v-3badda1e"></image>
+          <view class="_p data-v-3badda1e logo_word">家庭美好随时记</view>
+        </view>
+        <view class="_div data-v-3badda1e login_btn_box"><button open-type="getUserInfo" bindgetuserinfo="handleProxy" class="_button data-v-3badda1e btn" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_span data-v-3badda1e icon icon_wx">微信登陆</label></button></view>
+      </view>
+    </view>
+    <scroll-view wx:if="{{isLogin}}" class="_scroll-view data-v-3badda1e m_mine" scroll-y>
+      <view class="_div data-v-3badda1e user_info">
+        <view class="_div data-v-3badda1e info_detail">
+          <view class="_div data-v-3badda1e user_main">
+            <view class="_div data-v-3badda1e avatar">
+              <image src="/static/images/user.png" class="_image data-v-3badda1e"></image>
+            </view>
+            <view class="_div data-v-3badda1e user_name color-333 f36 fontbold">用户名称</view>
+            <view class="_div data-v-3badda1e user_id color-999 f28">ID:123456789</view>
+          </view>
+          <view class="_div data-v-3badda1e user_data user_gz" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+            <view class="_p data-v-3badda1e num f32 color-333">54</view>
+            <view class="_p data-v-3badda1e word f32 color-999">关注</view>
+          </view>
+          <view class="_div data-v-3badda1e user_data user_fans" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+            <view class="_p data-v-3badda1e num f32 color-333">87</view>
+            <view class="_p data-v-3badda1e word f32 color-999">粉丝</view>
+          </view>
+          <view class="_div data-v-3badda1e family_btn" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"><label class="_span data-v-3badda1e num color-fff f28">家庭<text class="_text data-v-3badda1e">{{myFamilyNum}}</text></label></view>
+        </view>
+        <view class="_div data-v-3badda1e user_des f28 color-666"> 你还没有设置个性签名，用一句话简单介绍下自己吧。 </view>
+      </view>
+      <view class="_div data-v-3badda1e user_article clearfix">
+        <view class="_div data-v-3badda1e tab_bar_item active fl">文章<text class="_text data-v-3badda1e num">999</text></view>
+        <view class="_div data-v-3badda1e tab_bar_item fl">收藏<text class="_text data-v-3badda1e num">999</text></view>
+      </view>
+      <view class="_div data-v-3badda1e container">
+        <view class="_div data-v-3badda1e copy_btn"><label class="_span data-v-3badda1e icon icon_copy color-333 f28">您有<text class="_text data-v-3badda1e num">2</text>份草稿待完成</label></view>
+      </view>
+      <view class="_div data-v-3badda1e container">
+        <view class="_div data-v-3badda1e article_list">
+          <view class="_div data-v-3badda1e article_item">
+            <view class="_div data-v-3badda1e title"> 俗语：“没钱不碰三生意，有钱不做三买卖”，创业者值得一看！ </view>
+            <view class="_div data-v-3badda1e pic_box">
+              <image mode="aspectFill" src="/static/images/pic.png" class="_image data-v-3badda1e"></image>
+              <view class="_div data-v-3badda1e tip_line"><label class="_span data-v-3badda1e tip_btn">公开</label> <label class="_span data-v-3badda1e tip_btn">共同编辑</label></view>
+            </view>
+            <view class="_div data-v-3badda1e handler_line clearfix">
+              <view class="_div data-v-3badda1e data_line fl clearfix">
+                <view class="_div data-v-3badda1e data_item fl"><label class="_span data-v-3badda1e num">250</label> <label class="_span data-v-3badda1e">阅读</label></view>
+                <view class="_div data-v-3badda1e dot fl"></view>
+                <view class="_div data-v-3badda1e data_item fl"><label class="_span data-v-3badda1e num">88</label> <label class="_span data-v-3badda1e">评论</label></view>
+                <view class="_div data-v-3badda1e dot fl"></view>
+                <view class="_div data-v-3badda1e data_item fl"><label class="_span data-v-3badda1e num">250</label> <label class="_span data-v-3badda1e">点赞</label></view>
+              </view>
+              <view class="_div data-v-3badda1e fr more_btn"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view> <template data="{{...$root[$kk+'1'], $root}}" is="e6a838c8"></template>
+  </view>
+</template>

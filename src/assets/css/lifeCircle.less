@@ -1,0 +1,305 @@
+@import './var.less';
+//举报投诉 -生活圈
+.complain {
+    background-color: #fff;
+    .complain_con {
+        margin: 17px 15px 0;
+        position: relative;
+        .complain_title {
+            font-size: 18px;
+            color: #151515;
+            letter-spacing: 0.69px;
+            line-height: 25px;
+        }
+        .complain_res {
+            margin: 17px 0;
+            .allcomplain{
+                .label_radio {
+                    display: inline-block;
+                    width: 50%;
+                    margin-bottom: 17px;
+                    .res_radio{
+                        text {
+                            font-size: 18px;
+                            color: #666666;
+                            letter-spacing: 0.78px;
+                            margin-left: 5px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .note {
+            font-size: 18px;
+            color: @theme_color;
+            letter-spacing: 0.69px;
+            position: relative;
+            top: 3px;
+            font-weight: bold;
+        }
+        .content {
+            background: #f8f8f8;
+            border-radius: 6px;
+            margin-top: 17px;
+            width: calc(100% - 30px);
+            height: 140px;
+            font-size: 16px;
+            color: #999999;
+            letter-spacing: 0.69px;
+            padding: 12px 15px;
+        }
+        .length_count {
+            color: #999;
+            position: absolute;
+            right: 10px;
+            bottom: 5px;
+            font-size: 30rpx;
+        }
+    }
+
+    .complain_explain {
+        margin: 17px 15px 0;
+        font-size: 14px;
+        color: #999999;
+        letter-spacing: 0.61px;
+        text-align: justify;
+    }
+
+    .complain_com {
+        margin: 15px 30px 0;
+        background: @theme_color;
+        border-radius: 22px;
+        font-size: 18px;
+        color: #ffffff;
+        letter-spacing: -0.45px;
+    }
+}
+//個人資料-生活圈
+.personalData {
+    height: calc(100vh - 100px);
+    padding-bottom: 75px;
+    background: #f8f8f8;
+
+    .user_info {
+        background: #fff;
+        padding: 20rpx 30rpx;
+
+        .info_detail {
+            position: relative;
+            width: 100%;
+            height: 250rpx;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .user_main {
+                position: absolute;
+                left: 0;
+                top: 0;
+
+                .avatar {
+                    width: 140rpx;
+                    height: 140rpx;
+                    border-radius: 100%;
+                    overflow: hidden;
+
+                    image {
+                        width: 140rpx;
+                        height: 140rpx;
+                    }
+                }
+
+                .user_name {
+                    width: 100%;
+                    height: 50rpx;
+                    line-height: 50rpx;
+                    overflow: hidden;
+                    margin-top: 20rpx;
+                }
+
+                .user_id {
+                    height: 40rpx;
+                    line-height: 40rpx;
+                }
+            }
+
+            .user_data {
+                height: 140rpx;
+                text-align: center;
+                display: flex;
+                display: -webkit-flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 40rpx;
+
+                .num {
+                    line-height: 44rpx;
+                    font-weight: bold;
+                }
+
+                .word {
+                    line-height: 44rpx;
+                }
+            }
+
+            .personal_btn {
+                width: 70px;
+                height: 30px;
+                background: @theme_color;
+                border-radius: 15px;
+                position: absolute;
+                right: 0rpx;
+                top: 34rpx;
+                text-align: center;
+
+                .num {
+                    height: 12px;
+                    line-height: 12px;
+                    display: inline-block;
+                    padding-left: 36rpx;
+                    background: url('../images/attention_add.svg') no-repeat left center;
+                    margin-top: 18rpx;
+                    letter-spacing: 0.54px;
+                }
+            }
+        }
+
+        .user_des {
+            width: 580rpx;
+            max-height: 80rpx;
+            line-height: 40rpx;
+            letter-spacing: 0.54px;
+            overflow: hidden;
+            margin-top: 14rpx;
+        }
+    }
+
+    .user_article {
+        background: #fff;
+        border-top: 1px solid #dfdfdf;
+
+        .tab_bar_item {
+            width: 50%;
+            height: 100rpx;
+            line-height: 100rpx;
+            font-size: 36rpx;
+            color: #999999;
+            letter-spacing: 0.69px;
+            text-align: center;
+
+            .num {
+                margin-left: 10rpx;
+            }
+        }
+
+        .tab_bar_item.active {
+            color: #000;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .tab_bar_item.active::after {
+            content: '';
+            display: inline-block;
+            width: 32rpx;
+            height: 6rpx;
+            border-radius: 6rpx;
+            background: @theme_color;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-16rpx);
+        }
+    }
+
+    .article_list {
+        .article_item {
+            background: #fff;
+            border-radius: 12rpx;
+            padding: 20rpx 30rpx 30rpx 30rpx;
+            margin-top: 15px;
+
+            .title {
+                font-size: 32rpx;
+                line-height: 44rpx;
+                color: #333333;
+                letter-spacing: 0.62px;
+                font-weight: bold;
+            }
+
+            .pic_box {
+                width: 100%;
+                height: 364rpx;
+                overflow: hidden;
+                border-radius: 12rpx;
+                position: relative;
+                margin-top: 20rpx;
+
+                image {
+                    width: 100%;
+                    height: 364rpx;
+                }
+
+                .tip_line {
+                    height: 44rpx;
+                    position: absolute;
+                    bottom: 20rpx;
+
+                    .tip_btn {
+                        display: inline-block;
+                        padding: 0 10rpx;
+                        height: 44rpx;
+                        line-height: 44rpx;
+                        border-radius: 22rpx;
+                        margin-left: 20rpx;
+                        font-size: 24rpx;
+                        color: #e4e4e4;
+                        letter-spacing: 0.53px;
+                        text-align: center;
+                        background: rgba(0, 0, 0, 0.58);
+                    }
+                }
+            }
+
+            .handler_line {
+                height: 28rpx;
+                line-height: 28rpx;
+                margin-top: 30rpx;
+                position: relative;
+
+                .data_line {
+                    .data_item {
+                        font-size: 14px;
+                        color: #999999;
+                        letter-spacing: 0.54px;
+
+                        .num {
+                            margin-right: 4rpx;
+                        }
+                    }
+
+                    .dot {
+                        width: 10rpx;
+                        height: 10rpx;
+                        background: #eee;
+                        border-radius: 100%;
+                        margin: 0 10rpx;
+                        margin-top: 10rpx;
+                    }
+                }
+
+                .more_btn {
+                    width: 88rpx;
+                    height: 88rpx;
+                    background: url('../images/details_more.svg') no-repeat center right;
+                    background-size: 40rpx 8rpx;
+                    position: absolute;
+                    right: 0;
+                    bottom: -30rpx;
+                }
+            }
+        }
+    }
+}

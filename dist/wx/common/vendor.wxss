@@ -1,0 +1,125 @@
+
+.navigation-bar.data-v-6c2e1336 {
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.navigation-bar .box.data-v-6c2e1336 {
+  width: 100%;
+  padding: 0 20rpx;
+  position: relative;
+}
+.navigation-bar .box .appName.data-v-6c2e1336 {
+  overflow: hidden;
+}
+.navigation-bar .box .index_top.data-v-6c2e1336 {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+.navigation-bar .isIndex .h_search.data-v-6c2e1336 {
+  height: 88rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+}
+.navigation-bar .isIndex .h_search .icon_search.data-v-6c2e1336 {
+  width: 44rpx;
+  height: 44rpx;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSIyMnB4IiB2aWV3Qm94PSIwIDAgMjMgMjIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjEgKDY3MDQ4KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5zZWFyY2g8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaG9tZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE0LjY4NzUwMCwgLTMxLjAwMDAwMCkiIGZpbGw9IiM2NjY2NjYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC02IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS4wMDAwMDAsIDMxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTE2Ljk5Njg5NjgsOS44NzkyMjk5MSBDMTYuOTk2ODk2OCw1Ljk0ODAyOTA4IDEzLjgxMDQzMDcsMi43NjE1NjMwNCA5Ljg3OTIyOTkxLDIuNzYxNTYzMDQgQzUuOTQ4MDI5MDgsMi43NjE1NjMwNCAyLjc2MTU2MzA0LDUuOTQ4MDI5MDggMi43NjE1NjMwNCw5Ljg3OTIyOTkxIEMyLjc2MTU2MzA0LDEzLjgxMDQzMDcgNS45NDgwMjkwOCwxNi45OTY4OTY4IDkuODc5MjI5OTEsMTYuOTk2ODk2OCBDMTEuNjAwMzU0NSwxNi45OTY4OTY4IDEzLjIyNDUwMTUsMTYuMzg1MTM1MiAxNC41MDQ4ODI4LDE1LjI4OTI0NTkgQzE2LjA3NjA5NDksMTMuOTQ0NDMyIDE2Ljk5Njg5NjgsMTEuOTg3Njk3NyAxNi45OTY4OTY4LDkuODc5MjI5OTEgWiBNMjAuMTE5MjE4NSwxOS43NTQzODY4IEwxOC44NzM2MDUzLDIxIEwxNS4wMDQ1NDI5LDE3LjEzMDkzNzYgQzEzLjUyMjY1NjcsMTguMTgwMzg4OSAxMS43NDQ3NDk0LDE4Ljc1ODQ1OTggOS44NzkyMjk5MSwxOC43NTg0NTk4IEM0Ljk3NTE0NDY4LDE4Ljc1ODQ1OTggMSwxNC43ODMzMTUxIDEsOS44NzkyMjk5MSBDMSw0Ljk3NTE0NDY4IDQuOTc1MTQ0NjgsMSA5Ljg3OTIyOTkxLDEgQzE0Ljc4MzMxNTEsMSAxOC43NTg0NTk4LDQuOTc1MTQ0NjggMTguNzU4NDU5OCw5Ljg3OTIyOTkxIEMxOC43NTg0NTk4LDEyLjE4MzQ0ODkgMTcuODc0ODcxOSwxNC4zNDU0OTI0IDE2LjMzNzgxMjEsMTUuOTcyOTgwNCBMMjAuMTE5MjE4NSwxOS43NTQzODY4IFoiIGlkPSJQYXRoIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) left center no-repeat;
+  background-size: 100%;
+  margin-top: 20rpx;
+}
+.navigation-bar .isIndex .h_search .top_sort.data-v-6c2e1336 {
+  height: 88rpx;
+}
+.navigation-bar .isIndex .h_search .top_sort .selected.data-v-6c2e1336 {
+  font-size: 38rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  letter-spacing: 1.46rpx;
+}
+.navigation-bar .isIndex .h_search .top_sort .icon_arrow.data-v-6c2e1336 {
+  width: 24rpx;
+  height: 14rpx;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMiA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1Mi4xICg2NzA0OCkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+eGlhbGE8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaG9tZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTk0LjY4NzUwMCwgLTM4LjAwMDAwMCkiIGZpbGw9IiNGRDYyNTgiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJUcmlhbmdsZS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NS4wMDAwMDAsIDM4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTYuNTg0NTg0MTksNi41ODQ1ODQxOSBDNS45ODU1ODQ4OCw3LjE4MzU4MzUxIDUuMDE0NDE1MTIsNy4xODM1ODM1MSA0LjQxNTQxNTgxLDYuNTg0NTg0MTkgTDAuNDQ5MjQ5NDgzLDIuNjE4NDE3ODcgQzAuMTYxNTk5ODcsMi4zMzA3NjgyNiAwLDEuOTQwNjMxNjYgMCwxLjUzMzgzMzY4IEMwLDAuNjg2NzIwNzI5IDAuNjg2NzIwNzI5LDEuMTU0NjMxOTVlLTE0IDEuNTMzODMzNjgsMS4xNTQ2MzE5NWUtMTQgTDkuNDY2MTY2MzIsMS4xNTQ2MzE5NWUtMTQgQzkuODcyOTY0MzEsMS4xNTQ2MzE5NWUtMTQgMTAuMjYzMTAwOSwwLjE2MTU5OTg3IDEwLjU1MDc1MDUsMC40NDkyNDk0ODMgQzExLjE0OTc0OTgsMS4wNDgyNDg3OSAxMS4xNDk3NDk4LDIuMDE5NDE4NTYgMTAuNTUwNzUwNSwyLjYxODQxNzg3IEw2LjU4NDU4NDE5LDYuNTg0NTg0MTkgWiIgaWQ9IlRyaWFuZ2xlIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) no-repeat center;
+  background-size: 100%;
+  margin-top: 36rpx;
+  margin-left: 10rpx;
+  transition: all 0.3s linear;
+}
+.navigation-bar .isIndex .h_search .top_sort .icon_arrow.active.data-v-6c2e1336 {
+  transform: rotate(180deg);
+}
+.navigation-bar .isIndex .h_search .select_box.data-v-6c2e1336 {
+  position: absolute;
+  background: #ffffff;
+  border: 2rpx solid #f8f8f8;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.06);
+  z-index: 10;
+  top: 88rpx;
+  left: 0;
+}
+.navigation-bar .isIndex .h_search .select_box .option.data-v-6c2e1336 {
+  width: 196rpx;
+  padding: 25rpx 0;
+  line-height: 36rpx;
+  text-align: center;
+  border-top: 2rpx solid #f8f8f8;
+}
+.navigation-bar .isIndex .h_search .select_box .option.data-v-6c2e1336:first-child {
+  border: none;
+}
+.navigation-bar .isMine .handler.data-v-6c2e1336 {
+  height: 88rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+}
+.navigation-bar .isMine .handler .icon.data-v-6c2e1336 {
+  width: 44rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+}
+.navigation-bar .isMine .handler .i_set.data-v-6c2e1336 {
+  margin-right: 40rpx;
+}
+.navigation-bar .goback.data-v-6c2e1336 {
+  width: 80rpx;
+  height: 88rpx;
+  position: absolute;
+  left: 30rpx;
+}
+.navigation-bar .goback image.data-v-6c2e1336 {
+  width: 38rpx;
+  height: 36rpx;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-18rpx);
+}
+.navigation-bar .icon_share.data-v-6c2e1336 {
+  width: 80rpx;
+  height: 88rpx;
+  position: absolute;
+  left: 120rpx;
+  top: 0;
+}
+.navigation-bar .icon_share image.data-v-6c2e1336 {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 0;
+  top: 24rpx;
+}

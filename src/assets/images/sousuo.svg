@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>sousuo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-114.687500, -38.000000)" fill="#FD6258" fill-rule="nonzero">
+            <g id="Triangle-2-Copy" transform="translate(115.000000, 38.000000)">
+                <path d="M6.58458419,0.449249483 L10.5507505,4.41541581 C11.1497498,5.01441512 11.1497498,5.98558488 10.5507505,6.58458419 C10.2631009,6.87223381 9.87296431,7.03383368 9.46616632,7.03383368 L1.53383368,7.03383368 C0.686720729,7.03383368 0,6.34711295 0,5.5 C0,5.09320202 0.16159987,4.70306542 0.449249483,4.41541581 L4.41541581,0.449249483 C5.01441512,-0.149749828 5.98558488,-0.149749828 6.58458419,0.449249483 Z" id="Triangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

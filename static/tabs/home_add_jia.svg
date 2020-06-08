@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>home_add_jia</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-175.687500, -606.000000)" fill="#FFE3D7" fill-rule="nonzero">
+            <g id="Bars/Tab-Bar/3-Items" transform="translate(-1.000000, 590.000000)">
+                <g id="Group-5" transform="translate(156.000000, 0.000000)">
+                    <g id="Combined-Shape-3" transform="translate(21.000000, 16.000000)">
+                        <path d="M10.75,10.75 L10.75,1.25 C10.75,0.559644063 11.3096441,-8.33619551e-14 12,-8.34887715e-14 C12.6903559,-8.36155878e-14 13.25,0.559644063 13.25,1.25 L13.25,10.75 L22.75,10.75 C23.4403559,10.75 24,11.3096441 24,12 C24,12.6903559 23.4403559,13.25 22.75,13.25 L13.25,13.25 L13.25,22.75 C13.25,23.4403559 12.6903559,24 12,24 C11.3096441,24 10.75,23.4403559 10.75,22.75 L10.75,13.25 L1.25,13.25 C0.559644063,13.25 2.13247365e-13,12.6903559 2.13162821e-13,12 C2.13078277e-13,11.3096441 0.559644063,10.75 1.25,10.75 L10.75,10.75 Z" id="home_add_jia"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

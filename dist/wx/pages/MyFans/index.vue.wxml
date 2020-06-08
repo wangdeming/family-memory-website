@@ -1,0 +1,41 @@
+<import src="/components/NavigationBar.vue.wxml" /><template name="e86465b6">
+  <view class="_div data-v-7ab3c36c my_fans"><template showBack data="{{...$root[$kk+'0'], $root}}" is="394ff1d1"></template>
+    <view class="_div data-v-7ab3c36c m_fans_tab clearfix">
+      <view bindtap="handleProxy" class="_div data-v-7ab3c36c u_tab_item f32 fl {{source === '1' ? 'active' : ''}}" data-eventid="{{'0'}}" data-comkey="{{$k}}">关注</view>
+      <view bindtap="handleProxy" class="_div data-v-7ab3c36c u_tab_item f32 fl {{source === '2' ? 'active' : ''}}" data-eventid="{{'1'}}" data-comkey="{{$k}}">粉丝</view>
+    </view>
+    <view class="_div data-v-7ab3c36c m_fans_list" wx:if="{{source === '1'}}">
+      <view wx:key="index" key="{{index}}" class="_div data-v-7ab3c36c m_fans_item clearfix" wx:for="{{followList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-7ab3c36c avatar_box fl clearfix">
+          <image class="_image data-v-7ab3c36c fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image> <label class="_span data-v-7ab3c36c name fl f36 color-333">{{ item.username }}</label>
+        </view>
+        <view wx:if="{{item.itemStatus}}" bindtap="handleProxy" class="_div data-v-7ab3c36c forkBtn" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}">
+          <view class="_div data-v-7ab3c36c icon">
+            <image style="width: 12px;height: 12px" src="{{ item.status === 1? '/static/images/fensi_gou.svg': '/static/images/fensi_xianghu.svg'}}" mode="aspectFit" class="_image data-v-7ab3c36c"></image>
+          </view>
+          <view class="_div data-v-7ab3c36c word">{{ item.status === 1 ? '已关注' : '相互关注' }}</view>
+        </view>
+        <view wx:if="{{!item.itemStatus}}" bindtap="handleProxy" class="_div data-v-7ab3c36c forkBtn active" data-eventid="{{'3_'+index}}" data-comkey="{{$k}}">
+          <view class="_div data-v-7ab3c36c icon">
+            <image style="width: 12px;height: 12px" src="/static/images/fensi_guanzhu.svg" mode="aspectFit" class="_image data-v-7ab3c36c"></image>
+          </view>
+          <view class="_div data-v-7ab3c36c word">关注</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-7ab3c36c m_fans_list" wx:if="{{source === '2'}}">
+      <view wx:key="index" key="{{index}}" class="_div data-v-7ab3c36c m_fans_item clearfix" data-type="{{item.silder}}" bindtouchstart="handleProxy" bindtouchend="handleProxy" bindtap="handleProxy" data-eventid="{{'6_'+index}}" data-comkey="{{$k}}" wx:for="{{fansList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-7ab3c36c avatar_box fl clearfix">
+          <image class="_image data-v-7ab3c36c fl" src="/static/images/user.png" mode="aspectFit" alt="avatar"></image> <label class="_span data-v-7ab3c36c name fl f36 color-333">{{ item.username }}</label>
+        </view>
+        <view bindtap="handleProxy" class="_div data-v-7ab3c36c forkBtn {{item.status === 1 ? 'active' : ''}}" data-eventid="{{'4_'+index}}" data-comkey="{{$k}}">
+          <view class="_div data-v-7ab3c36c icon">
+            <image style="width: 12px;height: 12px" src="{{item.status === 1? '/static/images/fensi_guanzhu.svg': '/static/images/fensi_xianghu.svg'}}" mode="aspectFit" class="_image data-v-7ab3c36c"></image>
+          </view>
+          <view class="_div data-v-7ab3c36c word">{{ item.status === 1 ? '关注' : '相互关注' }}</view>
+        </view>
+        <view wx:if="{{item.status === 1}}" class="_div data-v-7ab3c36c removeFans" bindtap="handleProxy" data-eventid="{{'5_'+index}}" data-comkey="{{$k}}"><label class="_span data-v-7ab3c36c line"></label> 移除粉丝</view>
+      </view>
+    </view>
+  </view>
+</template>
